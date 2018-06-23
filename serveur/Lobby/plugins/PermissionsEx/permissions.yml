@@ -1,0 +1,85 @@
+groups:
+  joueur:
+    build: true
+    options:
+      default: true
+      prefix: '&8[&7joueur&8]&7 '
+    permissions:
+    - essentials.afk
+    - essentials.balancetop
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - -essentials.msg.color
+    - -essentials.msg.format
+    - -essentials.msg.magic
+    - -essentials.msg.url
+    - -essentials.chat.color
+    - -essentials.chat.format
+    - -essentials.chat.magic
+    - -essentials.chat.question
+    - -essentials.chat.shout
+    - -essentials.chat.spy
+    - -essentials.chat.url
+    - essentials.pay
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.tphere
+    - essentials.help
+  VIP:
+    build: true
+    options:
+      default: false
+      prefix: '&0[&6VIP&0]&7 '
+    inheritance:
+    - joueur
+    permissions:
+    - 
+  VIP+:
+    build: true
+    options:
+      default: false
+      prefix: '&0&l[&6&lVIP&4&l+&0&l]&7 '
+    permissions:
+    - ???
+  MVP:
+    build: true
+    options:
+      default: false
+      prefix: '&4&l[&6&lMVP&4&l]&7 &9'
+    permissions:
+    - ???
+  modochat:
+    options:
+      default: false
+      prefix: '&0[&6VIP&0]&7 '
+    permissions:
+    - ???
+  admin:
+    options:
+      default: false
+      prefix: '&0[&6VIP&0]&7 '
+    permissions:
+    - ???
+  responsablemodo:
+    options:
+      default: false
+      prefix: '&0[&6VIP&0]&4 '
+    permissions:
+    - ???
+  fondateur:
+    options:
+      default: false
+      prefix: '&4&l[&cFONDATEUR&4&l] &4'
+    permissions:
+    - ???
+schema-version: 1
+users:
+  2050a37d-a387-3edc-bb3a-5d8b1bf468ae:
+    group:
+    - fondateur
+    options:
+      name: flux666

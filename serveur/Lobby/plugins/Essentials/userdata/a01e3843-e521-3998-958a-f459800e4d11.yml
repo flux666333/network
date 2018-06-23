@@ -1,0 +1,19 @@
+lastAccountName: Player
+timestamps:
+  login: 1529772622445
+  logout: 1529772711741
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 427.5
+  y: 4.0
+  z: 16.5
+  yaw: -312.06805
+  pitch: -3.173626
+lastlocation:
+  world: world
+  x: 497.7701739013647
+  y: 5.0
+  z: 62.196714164910816
+  yaw: -173.8905
+  pitch: 8.617919

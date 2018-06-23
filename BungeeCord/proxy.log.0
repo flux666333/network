@@ -1,0 +1,553 @@
+13:49:26 [INFOS] Using standard Java JCE cipher.
+13:49:26 [INFOS] Using standard Java compressor.
+13:49:26 [INFOS] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.12-SNAPSHOT:7ee0b6d:1303
+13:49:26 [INFOS] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+13:49:26 [INFOS] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+13:49:26 [INFOS] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+13:49:26 [INFOS] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+13:49:26 [INFOS] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+13:49:26 [INFOS] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+13:49:26 [INFOS] Attempting to update plugin from null to ModuleVersion(build=1303, git=7ee0b6d)
+13:49:26 [INFOS] Attempting to Jenkins download module cmd_alert v1303
+13:49:27 [INFOS] Download complete
+13:49:27 [INFOS] Attempting to update plugin from null to ModuleVersion(build=1303, git=7ee0b6d)
+13:49:27 [INFOS] Attempting to Jenkins download module cmd_find v1303
+13:49:27 [INFOS] Download complete
+13:49:27 [INFOS] Attempting to update plugin from null to ModuleVersion(build=1303, git=7ee0b6d)
+13:49:27 [INFOS] Attempting to Jenkins download module cmd_list v1303
+13:49:28 [INFOS] Download complete
+13:49:28 [INFOS] Attempting to update plugin from null to ModuleVersion(build=1303, git=7ee0b6d)
+13:49:28 [INFOS] Attempting to Jenkins download module cmd_send v1303
+13:49:29 [INFOS] Download complete
+13:49:29 [INFOS] Attempting to update plugin from null to ModuleVersion(build=1303, git=7ee0b6d)
+13:49:29 [INFOS] Attempting to Jenkins download module cmd_server v1303
+13:49:30 [INFOS] Download complete
+13:49:30 [INFOS] Attempting to update plugin from null to ModuleVersion(build=1303, git=7ee0b6d)
+13:49:30 [INFOS] Attempting to Jenkins download module reconnect_yaml v1303
+13:49:30 [INFOS] Download complete
+13:49:30 [INFOS] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [INFOS] Loaded plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [INFOS] Loaded plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [INFOS] Loaded plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [INFOS] Loaded plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [INFOS] Loaded plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [AVERTISSEMENT] Forced host server pvp is not defined
+13:49:30 [INFOS] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [INFOS] Enabled plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [INFOS] Enabled plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [INFOS] Enabled plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [INFOS] Enabled plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:30 [INFOS] Enabled plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+13:49:31 [INFOS] Listening on /0.0.0.0:25577
+13:53:16 [INFOS] [/127.0.0.1:62159] <-> InitialHandler has connected
+13:53:18 [INFOS] [/127.0.0.1:62163] <-> InitialHandler has connected
+13:53:19 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+13:53:19 [GRAVE] [flux666] <-> ServerConnector [lobby] - encountered exception
+java.lang.RuntimeException: Server is online mode!
+	at net.md_5.bungee.ServerConnector.handle(ServerConnector.java:277)
+	at net.md_5.bungee.protocol.packet.EncryptionRequest.handle(EncryptionRequest.java:42)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at java.lang.Thread.run(Unknown Source)
+13:53:19 [INFOS] [flux666] disconnected with: §fException Connecting:RuntimeException : Server is online mode! @ net.md_5.bungee.ServerConnector:277
+13:53:19 [INFOS] [flux666] <-> ServerConnector [lobby] has disconnected
+13:53:20 [INFOS] [flux666] -> UpstreamBridge has disconnected
+13:55:43 [INFOS] §cCommand not found
+13:55:47 [INFOS] §cAn internal error occurred whilst executing this command, please check the console log for details.
+13:55:47 [AVERTISSEMENT] Error in dispatching command
+java.lang.RuntimeException: Invalid configuration encountered - this is a configuration error and NOT a bug! Please attempt to fix the error or see https://www.spigotmc.org/ for help.
+	at net.md_5.bungee.conf.YamlConfig.load(YamlConfig.java:69)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:65)
+	at net.md_5.bungee.command.CommandReload.execute(CommandReload.java:20)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:169)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:116)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:63)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    player_limit: -1
+    ^
+expected <block end>, but found BlockEntry
+ in 'reader', line 26, column 1:
+    - query_port: 25577
+    ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:571)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:140)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:452)
+	at net.md_5.bungee.conf.YamlConfig.load(YamlConfig.java:66)
+	... 6 more
+13:57:42 [INFOS] §cCommand not found
+13:57:45 [INFOS] §cAn internal error occurred whilst executing this command, please check the console log for details.
+13:57:45 [AVERTISSEMENT] Error in dispatching command
+java.lang.NullPointerException
+	at net.md_5.bungee.conf.YamlConfig.get(YamlConfig.java:116)
+	at net.md_5.bungee.conf.YamlConfig.getServers(YamlConfig.java:209)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:94)
+	at net.md_5.bungee.command.CommandReload.execute(CommandReload.java:20)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:169)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:116)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:63)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+13:58:12 [INFOS] [/127.0.0.1:62170] <-> InitialHandler has connected
+13:58:14 [INFOS] [/127.0.0.1:62174] <-> InitialHandler has connected
+13:58:14 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+14:01:35 [INFOS] §cAn internal error occurred whilst executing this command, please check the console log for details.
+14:01:35 [AVERTISSEMENT] Error in dispatching command
+java.lang.ClassCastException: java.util.LinkedHashMap cannot be cast to java.util.Collection
+	at net.md_5.bungee.conf.YamlConfig.getListeners(YamlConfig.java:225)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:79)
+	at net.md_5.bungee.command.CommandReload.execute(CommandReload.java:20)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:169)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:116)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:63)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+14:05:48 [INFOS] §cAn internal error occurred whilst executing this command, please check the console log for details.
+14:05:48 [AVERTISSEMENT] Error in dispatching command
+java.lang.ClassCastException: java.util.LinkedHashMap cannot be cast to java.util.Collection
+	at net.md_5.bungee.conf.YamlConfig.getListeners(YamlConfig.java:225)
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:79)
+	at net.md_5.bungee.command.CommandReload.execute(CommandReload.java:20)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:169)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:116)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:63)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+14:06:56 [INFOS] Closing listener [id: 0x45f815cb, L:/0:0:0:0:0:0:0:0:25577]
+14:06:56 [INFOS] Closing pending connections
+14:06:56 [INFOS] Disconnecting 1 connections
+14:06:56 [INFOS] [flux666] disconnected with: §f[Proxy] Proxy restarting.
+14:06:57 [INFOS] [flux666] -> UpstreamBridge has disconnected
+14:06:57 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+14:06:57 [INFOS] Saving reconnect locations
+14:06:57 [INFOS] Disabling plugins
+14:06:57 [INFOS] Closing IO threads
+14:07:02 [INFOS] Using standard Java JCE cipher.
+14:07:02 [INFOS] Using standard Java compressor.
+14:07:02 [INFOS] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.12-SNAPSHOT:7ee0b6d:1303
+14:07:02 [INFOS] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+14:07:02 [INFOS] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+14:07:02 [INFOS] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+14:07:02 [INFOS] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+14:07:02 [INFOS] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+14:07:02 [INFOS] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+14:07:02 [INFOS] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:02 [INFOS] Loaded plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:02 [INFOS] Loaded plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:02 [INFOS] Loaded plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:02 [INFOS] Loaded plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:02 [INFOS] Loaded plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:03 [AVERTISSEMENT] Forced host server pvp is not defined
+14:07:03 [INFOS] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:03 [INFOS] Enabled plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:03 [INFOS] Enabled plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:03 [INFOS] Enabled plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:03 [INFOS] Enabled plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:03 [INFOS] Enabled plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:07:03 [INFOS] Listening on /0.0.0.0:25577
+14:08:12 [INFOS] Closing listener [id: 0x4ec98994, L:/0:0:0:0:0:0:0:0:25577]
+14:08:12 [INFOS] Closing pending connections
+14:08:12 [INFOS] Disconnecting 0 connections
+14:08:12 [INFOS] Saving reconnect locations
+14:08:12 [INFOS] Disabling plugins
+14:08:12 [INFOS] Closing IO threads
+14:08:30 [INFOS] Using standard Java JCE cipher.
+14:08:30 [INFOS] Using standard Java compressor.
+14:08:30 [INFOS] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.12-SNAPSHOT:7ee0b6d:1303
+14:08:30 [INFOS] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+14:08:30 [INFOS] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+14:08:30 [INFOS] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+14:08:30 [INFOS] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+14:08:30 [INFOS] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+14:08:30 [INFOS] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+14:08:30 [INFOS] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [INFOS] Loaded plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [INFOS] Loaded plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [INFOS] Loaded plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [INFOS] Loaded plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [INFOS] Loaded plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [AVERTISSEMENT] Forced host server pvp is not defined
+14:08:30 [INFOS] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [INFOS] Enabled plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [INFOS] Enabled plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [INFOS] Enabled plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [INFOS] Enabled plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:30 [INFOS] Enabled plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:08:31 [INFOS] Listening on /0.0.0.0:25577
+14:08:58 [INFOS] [/127.0.0.1:62271] <-> InitialHandler has connected
+14:08:59 [INFOS] [/127.0.0.1:62274] <-> InitialHandler has connected
+14:09:00 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+14:09:08 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+14:09:11 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+14:09:21 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+14:09:22 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+14:11:44 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+14:11:44 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+14:13:33 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+14:13:33 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+14:14:13 [INFOS] [flux666] -> UpstreamBridge has disconnected
+14:14:13 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+14:14:14 [INFOS] [/127.0.0.1:62396] <-> InitialHandler has connected
+14:14:16 [INFOS] [/127.0.0.1:62400] <-> InitialHandler has connected
+14:25:06 [INFOS] Using standard Java JCE cipher.
+14:25:06 [INFOS] Using standard Java compressor.
+14:25:06 [INFOS] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.12-SNAPSHOT:7ee0b6d:1303
+14:25:07 [INFOS] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+14:25:07 [INFOS] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+14:25:07 [INFOS] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+14:25:07 [INFOS] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+14:25:07 [INFOS] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+14:25:07 [INFOS] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+14:25:07 [INFOS] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [INFOS] Loaded plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [INFOS] Loaded plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [INFOS] Loaded plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [INFOS] Loaded plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [INFOS] Loaded plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [AVERTISSEMENT] Forced host server pvp is not defined
+14:25:07 [INFOS] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [INFOS] Enabled plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [INFOS] Enabled plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [INFOS] Enabled plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [INFOS] Enabled plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:07 [INFOS] Enabled plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+14:25:08 [INFOS] Listening on /0.0.0.0:25577
+14:29:29 [INFOS] [/127.0.0.1:62836] <-> InitialHandler has connected
+14:55:47 [INFOS] [/127.0.0.1:64428] <-> InitialHandler has connected
+14:55:49 [INFOS] [/127.0.0.1:64430] <-> InitialHandler has connected
+14:55:49 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+14:57:17 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+14:57:17 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+17:13:00 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+17:13:00 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+18:19:51 [INFOS] [flux666] disconnected with: §fServer closed
+18:19:51 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+18:19:52 [INFOS] [flux666] -> UpstreamBridge has disconnected
+18:19:56 [INFOS] Closing listener [id: 0x9057fcf2, L:/0:0:0:0:0:0:0:0:25577]
+18:19:56 [INFOS] Closing pending connections
+18:19:56 [INFOS] Disconnecting 0 connections
+18:19:57 [INFOS] Saving reconnect locations
+18:19:57 [INFOS] Disabling plugins
+18:19:57 [INFOS] Closing IO threads
+18:51:15 [INFOS] Using standard Java JCE cipher.
+18:51:15 [INFOS] Using standard Java compressor.
+18:51:15 [INFOS] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.12-SNAPSHOT:7ee0b6d:1303
+18:51:16 [INFOS] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+18:51:16 [INFOS] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+18:51:16 [INFOS] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+18:51:16 [INFOS] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+18:51:16 [INFOS] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+18:51:16 [INFOS] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+18:51:17 [INFOS] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [INFOS] Loaded plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [INFOS] Loaded plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [INFOS] Loaded plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [INFOS] Loaded plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [INFOS] Loaded plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [AVERTISSEMENT] Forced host server pvp is not defined
+18:51:17 [INFOS] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [INFOS] Enabled plugin cmd_find version git:cmd_find:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [INFOS] Enabled plugin cmd_server version git:cmd_server:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [INFOS] Enabled plugin cmd_alert version git:cmd_alert:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [INFOS] Enabled plugin cmd_send version git:cmd_send:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:17 [INFOS] Enabled plugin cmd_list version git:cmd_list:1.12-SNAPSHOT:7ee0b6d:1303 by SpigotMC
+18:51:24 [INFOS] Listening on /0.0.0.0:25577
+18:52:54 [INFOS] [/127.0.0.1:50498] <-> InitialHandler has connected
+18:52:56 [INFOS] [/127.0.0.1:50501] <-> InitialHandler has connected
+18:52:57 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+22:01:14 [AVERTISSEMENT] [flux666] -> UpstreamBridge - read timed out
+22:01:17 [INFOS] [flux666] disconnected with: §fReadTimeoutException : null
+22:01:23 [INFOS] [flux666] -> UpstreamBridge has disconnected
+22:01:24 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+22:02:00 [INFOS] [/127.0.0.1:51103] <-> InitialHandler has connected
+22:02:00 [INFOS] [/127.0.0.1:51097] <-> InitialHandler has connected
+22:02:03 [INFOS] [/127.0.0.1:51111] <-> InitialHandler has connected
+22:02:04 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+22:02:51 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+22:02:53 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+22:03:59 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+22:04:00 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+22:05:38 [INFOS] [flux666] -> UpstreamBridge has disconnected
+22:05:38 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+22:05:39 [INFOS] [/127.0.0.1:51136] <-> InitialHandler has connected
+22:16:42 [INFOS] [/127.0.0.1:51376] <-> InitialHandler has connected
+10:39:16 [INFOS] [/127.0.0.1:51575] <-> InitialHandler has connected
+10:39:20 [INFOS] [/127.0.0.1:51579] <-> InitialHandler has connected
+10:39:20 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+10:54:32 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+10:54:34 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+11:00:48 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+11:00:49 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+12:02:07 [INFOS] [flux666] disconnected with: §fServer closed
+12:02:08 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+12:02:08 [INFOS] [flux666] -> UpstreamBridge has disconnected
+12:05:05 [INFOS] [/127.0.0.1:54055] <-> InitialHandler has connected
+12:06:06 [INFOS] [/127.0.0.1:54082] <-> InitialHandler has connected
+12:06:06 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+12:06:39 [AVERTISSEMENT] [flux666] <-> DownstreamBridge <-> [lobby] - IOException: Une connexion existante a dû être fermée par l’hôte distant
+12:06:39 [INFOS] [flux666] disconnected with: §fIOException : Une connexion existante a dû être fermée par l’hôte distant @ sun.nio.ch.SocketDispatcher:-2
+12:06:39 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+12:06:39 [INFOS] [flux666] -> UpstreamBridge has disconnected
+12:08:30 [INFOS] [/127.0.0.1:54102] <-> InitialHandler has connected
+12:09:03 [INFOS] [/127.0.0.1:54132] <-> InitialHandler has connected
+12:09:03 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+12:09:29 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+12:09:30 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+12:09:47 [AVERTISSEMENT] [flux666] <-> DownstreamBridge <-> [pvpbox] - IOException: Une connexion existante a dû être fermée par l’hôte distant
+12:09:47 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+12:09:48 [INFOS] [flux666] disconnected with: §cCould not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+12:09:48 [INFOS] [flux666] -> UpstreamBridge has disconnected
+12:11:20 [INFOS] [/127.0.0.1:54139] <-> InitialHandler has connected
+12:11:27 [INFOS] [/127.0.0.1:54154] <-> InitialHandler has connected
+12:11:28 [INFOS] [/127.0.0.1:54159] <-> InitialHandler has connected
+12:11:28 [INFOS] [/127.0.0.1:54163] <-> InitialHandler has connected
+12:11:32 [INFOS] [/127.0.0.1:54169] <-> InitialHandler has connected
+12:11:32 [INFOS] [/127.0.0.1:54174] <-> InitialHandler has connected
+12:11:35 [INFOS] [/127.0.0.1:54181] <-> InitialHandler has connected
+12:11:36 [INFOS] [/127.0.0.1:54190] <-> InitialHandler has connected
+12:11:37 [INFOS] [/127.0.0.1:54194] <-> InitialHandler has connected
+12:11:38 [INFOS] [/127.0.0.1:54198] <-> InitialHandler has connected
+12:11:46 [INFOS] [/127.0.0.1:54211] <-> InitialHandler has connected
+12:11:46 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+12:12:01 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+12:12:02 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+12:12:14 [AVERTISSEMENT] [flux666] <-> DownstreamBridge <-> [lobby] - IOException: Une connexion existante a dû être fermée par l’hôte distant
+12:12:14 [INFOS] [flux666] disconnected with: §fIOException : Une connexion existante a dû être fermée par l’hôte distant @ sun.nio.ch.SocketDispatcher:-2
+12:12:14 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+12:12:14 [INFOS] [flux666] -> UpstreamBridge has disconnected
+12:14:55 [INFOS] [/127.0.0.1:54259] <-> InitialHandler has connected
+12:14:56 [INFOS] [/127.0.0.1:54263] <-> InitialHandler has connected
+12:14:56 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+12:16:09 [AVERTISSEMENT] [flux666] -> UpstreamBridge - IOException: Une connexion existante a dû être fermée par l’hôte distant
+12:16:09 [INFOS] [flux666] disconnected with: §fIOException : Une connexion existante a dû être fermée par l’hôte distant @ sun.nio.ch.SocketDispatcher:-2
+12:16:09 [INFOS] [flux666] -> UpstreamBridge has disconnected
+12:16:09 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+12:17:15 [INFOS] [/127.0.0.1:54367] <-> InitialHandler has connected
+12:17:20 [INFOS] [flux666] <-> InitialHandler has connected
+12:17:20 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+12:17:34 [AVERTISSEMENT] [flux666] <-> DownstreamBridge <-> [lobby] - IOException: Une connexion existante a dû être fermée par l’hôte distant
+12:17:34 [INFOS] [flux666] disconnected with: §fIOException : Une connexion existante a dû être fermée par l’hôte distant @ sun.nio.ch.SocketDispatcher:-2
+12:17:34 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+12:17:34 [INFOS] [flux666] -> UpstreamBridge has disconnected
+12:20:36 [INFOS] [/127.0.0.1:54444] <-> InitialHandler has connected
+12:21:04 [INFOS] [flux666] <-> InitialHandler has connected
+12:21:04 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+12:21:20 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+12:21:21 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+12:36:36 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+12:36:36 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+16:34:10 [AVERTISSEMENT] [flux666] -> UpstreamBridge - read timed out
+16:34:18 [INFOS] [flux666] disconnected with: §fReadTimeoutException : null
+16:34:26 [AVERTISSEMENT] [flux666] <-> DownstreamBridge <-> [lobby] - read timed out
+16:34:31 [INFOS] [flux666] -> UpstreamBridge has disconnected
+16:34:37 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+17:16:54 [INFOS] [/127.0.0.1:57811] <-> InitialHandler has connected
+17:16:57 [INFOS] [/127.0.0.1:57813] <-> InitialHandler has connected
+17:16:57 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+17:33:28 [INFOS] [flux666] -> UpstreamBridge has disconnected
+17:33:28 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+17:33:40 [INFOS] [/127.0.0.1:58454] <-> InitialHandler has connected
+17:36:43 [INFOS] [/127.0.0.1:58556] <-> InitialHandler has connected
+17:36:46 [INFOS] [/127.0.0.1:58557] <-> InitialHandler has connected
+17:36:48 [INFOS] [flux666] <-> InitialHandler has connected
+17:36:48 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+17:47:30 [INFOS] [flux666] -> UpstreamBridge has disconnected
+17:47:31 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+17:47:32 [INFOS] [/127.0.0.1:59354] <-> InitialHandler has connected
+18:06:47 [INFOS] [/127.0.0.1:61220] <-> InitialHandler has connected
+18:06:49 [INFOS] [/127.0.0.1:61223] <-> InitialHandler has connected
+18:06:49 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:08:24 [INFOS] [/127.0.0.1:61246] <-> InitialHandler has connected
+18:08:26 [INFOS] [/127.0.0.1:61247] <-> InitialHandler has connected
+18:08:29 [INFOS] [flux666] <-> InitialHandler has connected
+18:08:29 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+18:09:36 [AVERTISSEMENT] [flux666] -> UpstreamBridge - IOException: Une connexion existante a dû être fermée par l’hôte distant
+18:09:37 [INFOS] [flux666] disconnected with: §fIOException : Une connexion existante a dû être fermée par l’hôte distant @ sun.nio.ch.SocketDispatcher:-2
+18:09:42 [INFOS] [flux666] -> UpstreamBridge has disconnected
+18:09:42 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+18:10:19 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:10:20 [INFOS] [Player] <-> DownstreamBridge <-> [lobby] has disconnected
+18:10:22 [INFOS] [/127.0.0.1:61319] <-> InitialHandler has connected
+18:14:28 [INFOS] [flux666] <-> InitialHandler has connected
+18:14:28 [INFOS] [/127.0.0.1:61441] <-> InitialHandler has connected
+18:14:28 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+18:15:18 [INFOS] [/127.0.0.1:61467] <-> InitialHandler has connected
+18:15:21 [INFOS] [Player] <-> InitialHandler has connected
+18:15:22 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:16:04 [INFOS] [Player] <-> ServerConnector [pvpbox] has connected
+18:16:28 [INFOS] [Player] <-> DownstreamBridge <-> [lobby] has disconnected
+18:19:14 [AVERTISSEMENT] [flux666] <-> DownstreamBridge <-> [lobby] - read timed out
+18:19:15 [INFOS] [flux666] disconnected with: §fReadTimeoutException : null
+18:19:16 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+18:19:16 [INFOS] [flux666] -> UpstreamBridge has disconnected
+18:19:55 [AVERTISSEMENT] [Player] <-> DownstreamBridge <-> [pvpbox] - read timed out
+18:19:55 [INFOS] [Player] <-> DownstreamBridge <-> [pvpbox] has disconnected
+18:19:56 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:19:56 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:20:10 [AVERTISSEMENT] No client connected for pending server!
+18:20:16 [INFOS] [Player] <-> ServerConnector [lobby] has disconnected
+18:23:15 [INFOS] [/127.0.0.1:61577] <-> InitialHandler has connected
+18:23:17 [AVERTISSEMENT] Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[Player] <-> InitialHandler) took 321 283 261ns to process!
+18:23:17 [INFOS] [Player] <-> ServerConnector [pvpbox] has connected
+18:25:07 [INFOS] [flux666] <-> InitialHandler has connected
+18:25:07 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+18:25:22 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+18:25:25 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+18:39:51 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+18:40:04 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+18:40:33 [AVERTISSEMENT] [flux666] -> UpstreamBridge - read timed out
+18:40:33 [INFOS] [flux666] disconnected with: §fReadTimeoutException : null
+18:40:33 [INFOS] [flux666] -> UpstreamBridge has disconnected
+18:40:33 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+18:40:42 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:40:43 [INFOS] [Player] <-> DownstreamBridge <-> [pvpbox] has disconnected
+18:41:11 [INFOS] [/127.0.0.1:61798] <-> InitialHandler has connected
+18:41:11 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+18:42:37 [INFOS] [Player] disconnected with: §fBanni : insulte modo de con
+18:42:38 [AVERTISSEMENT] [Player] <-> DownstreamBridge <-> [lobby] - IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+18:42:38 [INFOS] [Player] <-> DownstreamBridge <-> [lobby] has disconnected
+18:42:38 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:43:30 [INFOS] [/127.0.0.1:61850] <-> InitialHandler has connected
+18:43:30 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:45:00 [INFOS] [Player] disconnected with: §f§cYou have been temporarily banned for now:
+§rtu et con
+18:45:00 [INFOS] [Player] <-> DownstreamBridge <-> [lobby] has disconnected
+18:45:00 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:45:11 [INFOS] [Player] <-> InitialHandler has connected
+18:45:11 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:45:19 [AVERTISSEMENT] [flux666] -> UpstreamBridge - IOException: Une connexion existante a dû être fermée par l’hôte distant
+18:45:20 [INFOS] [flux666] disconnected with: §fIOException : Une connexion existante a dû être fermée par l’hôte distant @ sun.nio.ch.SocketDispatcher:-2
+18:45:20 [INFOS] [flux666] -> UpstreamBridge has disconnected
+18:45:20 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+18:47:36 [INFOS] [/127.0.0.1:61940] <-> InitialHandler has connected
+18:47:36 [INFOS] [flux666] <-> InitialHandler has connected
+18:47:36 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+18:48:01 [INFOS] [flux666] disconnected with: §fTimed out
+18:48:01 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+18:48:02 [INFOS] [flux666] -> UpstreamBridge has disconnected
+18:48:13 [INFOS] [/127.0.0.1:61944] <-> InitialHandler has connected
+18:48:16 [INFOS] [flux666] <-> InitialHandler has connected
+18:48:16 [INFOS] [flux666] <-> ServerConnector [lobby] has connected
+18:49:07 [INFOS] [Player] disconnected with: §f§cYou have been temporarily banned for 1 seconde:
+§rtu et moche
+18:49:07 [INFOS] [Player] <-> DownstreamBridge <-> [lobby] has disconnected
+18:49:08 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:49:17 [INFOS] [Player] <-> InitialHandler has connected
+18:49:17 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:49:35 [INFOS] [Player] disconnected with: §f§cYou have been temporarily banned for 29 secondes:
+§rtu et moche
+18:49:35 [INFOS] [Player] <-> DownstreamBridge <-> [lobby] has disconnected
+18:49:35 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:49:39 [INFOS] [/127.0.0.1:61957] <-> InitialHandler has connected
+18:49:41 [INFOS] [Player] <-> InitialHandler has connected
+18:49:41 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:49:43 [INFOS] [Player] disconnected with: §cKicked whilst connecting to lobby: §fYou are banned from this server!
+Reason: tu et moche
+Your ban will be removed on 2018-06-23 at 18:50:05 CEST
+18:49:43 [INFOS] [Player] <-> ServerConnector [lobby] has disconnected
+18:49:43 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:49:52 [INFOS] [/127.0.0.1:61963] <-> InitialHandler has connected
+18:49:54 [INFOS] [Player] <-> InitialHandler has connected
+18:49:54 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:49:54 [INFOS] [Player] disconnected with: §cKicked whilst connecting to lobby: §fYou are banned from this server!
+Reason: tu et moche
+Your ban will be removed on 2018-06-23 at 18:50:05 CEST
+18:49:54 [INFOS] [Player] <-> ServerConnector [lobby] has disconnected
+18:49:54 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:49:57 [INFOS] [/127.0.0.1:61971] <-> InitialHandler has connected
+18:49:57 [INFOS] [/127.0.0.1:61975] <-> InitialHandler has connected
+18:49:59 [INFOS] [Player] <-> InitialHandler has connected
+18:49:59 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:49:59 [INFOS] [Player] disconnected with: §cKicked whilst connecting to lobby: §fYou are banned from this server!
+Reason: tu et moche
+Your ban will be removed on 2018-06-23 at 18:50:05 CEST
+18:49:59 [INFOS] [Player] <-> ServerConnector [lobby] has disconnected
+18:49:59 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:50:20 [INFOS] [/127.0.0.1:61982] <-> InitialHandler has connected
+18:50:21 [INFOS] [Player] <-> InitialHandler has connected
+18:50:21 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+18:50:58 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+18:51:20 [INFOS] [flux666] <-> DownstreamBridge <-> [lobby] has disconnected
+18:51:52 [INFOS] [Player] <-> ServerConnector [pvpbox] has connected
+18:51:54 [INFOS] [Player] <-> DownstreamBridge <-> [lobby] has disconnected
+18:53:20 [INFOS] [Player] disconnected with: §f§cYou have been temporarily banned for 29 secondes:
+§rtu et moche sa con
+18:53:20 [INFOS] [Player] <-> DownstreamBridge <-> [pvpbox] has disconnected
+18:53:21 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:53:29 [INFOS] [/127.0.0.1:62040] <-> InitialHandler has connected
+18:53:31 [INFOS] [Player] <-> InitialHandler has connected
+18:53:31 [INFOS] [Player] <-> ServerConnector [pvpbox] has connected
+18:53:31 [INFOS] [Player] disconnected with: §cKicked whilst connecting to pvpbox: §fYou are banned from this server!
+Reason: tu et moche sa con
+Your ban will be removed on 2018-06-23 at 18:53:50 CEST
+18:53:31 [INFOS] [Player] <-> ServerConnector [pvpbox] has disconnected
+18:53:31 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:53:37 [INFOS] [/127.0.0.1:62047] <-> InitialHandler has connected
+18:53:39 [INFOS] [Player] <-> InitialHandler has connected
+18:53:39 [INFOS] [Player] <-> ServerConnector [pvpbox] has connected
+18:53:39 [INFOS] [Player] disconnected with: §cKicked whilst connecting to pvpbox: §fYou are banned from this server!
+Reason: tu et moche sa con
+Your ban will be removed on 2018-06-23 at 18:53:50 CEST
+18:53:39 [INFOS] [Player] <-> ServerConnector [pvpbox] has disconnected
+18:53:39 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:53:43 [INFOS] [Player] <-> InitialHandler has connected
+18:53:43 [INFOS] [Player] <-> ServerConnector [pvpbox] has connected
+18:53:43 [INFOS] [Player] disconnected with: §cKicked whilst connecting to pvpbox: §fYou are banned from this server!
+Reason: tu et moche sa con
+Your ban will be removed on 2018-06-23 at 18:53:50 CEST
+18:53:43 [INFOS] [Player] <-> ServerConnector [pvpbox] has disconnected
+18:53:43 [INFOS] [Player] -> UpstreamBridge has disconnected
+18:53:56 [INFOS] [Player] <-> InitialHandler has connected
+18:53:56 [INFOS] [Player] <-> ServerConnector [pvpbox] has connected
+21:36:41 [AVERTISSEMENT] [flux666] -> UpstreamBridge - read timed out
+21:36:50 [INFOS] [flux666] disconnected with: §fReadTimeoutException : null
+21:37:09 [AVERTISSEMENT] [flux666] <-> DownstreamBridge <-> [pvpbox] - read timed out
+21:37:10 [AVERTISSEMENT] [Player] <-> DownstreamBridge <-> [pvpbox] - read timed out
+21:37:12 [AVERTISSEMENT] Event ServerConnectEvent(player=Player, target=BungeeServerInfo(name=lobby, address=localhost/127.0.0.1:25565, restricted=false), cancelled=false) took 404 751 763ns to process!
+21:37:43 [AVERTISSEMENT] [Player] -> UpstreamBridge - read timed out
+21:37:43 [INFOS] [Player] disconnected with: §fReadTimeoutException : null
+21:37:47 [INFOS] [flux666] -> UpstreamBridge has disconnected
+21:37:50 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+21:37:57 [INFOS] [Player] <-> DownstreamBridge <-> [pvpbox] has disconnected
+21:37:58 [INFOS] [Player] -> UpstreamBridge has disconnected
+21:38:05 [INFOS] [Player] <-> ServerConnector [lobby] has connected
+21:38:30 [AVERTISSEMENT] [Player] <-> ServerConnector [lobby] - read timed out
+21:38:31 [INFOS] [Player] <-> ServerConnector [lobby] has disconnected
+21:41:34 [INFOS] [/127.0.0.1:62433] <-> InitialHandler has connected
+21:41:37 [INFOS] [/127.0.0.1:62436] <-> InitialHandler has connected
+21:41:37 [AVERTISSEMENT] Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[flux666] <-> InitialHandler) took 286 714 781ns to process!
+21:41:37 [INFOS] [flux666] <-> ServerConnector [pvpbox] has connected
+21:43:16 [INFOS] [flux666] -> UpstreamBridge has disconnected
+21:43:16 [INFOS] [flux666] <-> DownstreamBridge <-> [pvpbox] has disconnected
+21:43:18 [INFOS] [/127.0.0.1:62447] <-> InitialHandler has connected

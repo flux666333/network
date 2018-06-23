@@ -1,0 +1,22 @@
+lastAccountName: flux666
+timestamps:
+  login: 1529782901715
+  lastteleport: 1529782931288
+  logout: 1529782995158
+ipAddress: 127.0.0.1
+money: '0'
+lastlocation:
+  world: world
+  x: 1084.7954960010043
+  y: 52.406341288100485
+  z: -289.4993643876104
+  yaw: -107.09964
+  pitch: 36.900024
+logoutlocation:
+  world: world
+  x: 1048.8815229651211
+  y: 11.24917315870712
+  z: -265.7160881793294
+  yaw: -35.99997
+  pitch: -2.7000036
+afk: false

@@ -1,0 +1,93 @@
+CREATE TABLE `permissions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `type` tinyint(1) NOT NULL,
+  `permission` mediumtext NOT NULL,
+  `world` varchar(50) NOT NULL,
+  `value` mediumtext NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `user` (`name`,`type`),
+  KEY `world` (`world`,`name`,`type`)
+) ENGINE=MyISAM AUTO_INCREMENT=271 DEFAULT CHARSET=utf8mb4;
+INSERT INTO `{permissions}` VALUES (251, 'joueur', 0, 'default', '', 'true');
+INSERT INTO `{permissions}` VALUES (252, 'joueur', 0, 'prefix', '', '&8[&7joueur&8]&7 ');
+INSERT INTO `{permissions}` VALUES (268, 'VIP', 0, 'default', '', 'false');
+INSERT INTO `{permissions}` VALUES (269, 'VIP', 0, 'prefix', '', '&0[&6VIP&0]&7 ');
+INSERT INTO `{permissions}` VALUES (259, 'VIP+', 0, '???', '', '');
+INSERT INTO `{permissions}` VALUES (260, 'VIP+', 0, 'default', '', 'false');
+INSERT INTO `{permissions}` VALUES (261, 'VIP+', 0, 'prefix', '', '&0&l[&6&lVIP&4&l+&0&l]&7 ');
+INSERT INTO `{permissions}` VALUES (256, 'MVP', 0, '???', '', '');
+INSERT INTO `{permissions}` VALUES (257, 'MVP', 0, 'default', '', 'false');
+INSERT INTO `{permissions}` VALUES (258, 'MVP', 0, 'prefix', '', '&4&l[&6&lMVP&4&l]&7 &9');
+INSERT INTO `{permissions}` VALUES (253, 'modochat', 0, '???', '', '');
+INSERT INTO `{permissions}` VALUES (254, 'modochat', 0, 'default', '', 'false');
+INSERT INTO `{permissions}` VALUES (255, 'modochat', 0, 'prefix', '', '&0[&6VIP&0]&7 ');
+INSERT INTO `{permissions}` VALUES (262, 'admin', 0, '???', '', '');
+INSERT INTO `{permissions}` VALUES (263, 'admin', 0, 'default', '', 'false');
+INSERT INTO `{permissions}` VALUES (264, 'admin', 0, 'prefix', '', '&0[&6VIP&0]&7 ');
+INSERT INTO `{permissions}` VALUES (265, 'responsablemodo', 0, '???', '', '');
+INSERT INTO `{permissions}` VALUES (266, 'responsablemodo', 0, 'default', '', 'false');
+INSERT INTO `{permissions}` VALUES (267, 'responsablemodo', 0, 'prefix', '', '&0[&6VIP&0]&4 ');
+INSERT INTO `{permissions}` VALUES (224, 'fondateur', 0, '???', '', '');
+INSERT INTO `{permissions}` VALUES (225, 'fondateur', 0, 'default', '', 'false');
+INSERT INTO `{permissions}` VALUES (226, 'fondateur', 0, 'prefix', '', '&4&l[&cFONDATEUR&4&l] &4');
+INSERT INTO `{permissions}` VALUES (270, '2050a37d-a387-3edc-bb3a-5d8b1bf468ae', 1, 'name', '', 'flux666');
+INSERT INTO `{permissions}` VALUES (246, 'joueur', 0, 'essentials.mail.send', '', '');
+INSERT INTO `{permissions}` VALUES (245, 'joueur', 0, 'essentials.msg', '', '');
+INSERT INTO `{permissions}` VALUES (244, 'joueur', 0, '-essentials.msg.color', '', '');
+INSERT INTO `{permissions}` VALUES (243, 'joueur', 0, '-essentials.msg.format', '', '');
+INSERT INTO `{permissions}` VALUES (242, 'joueur', 0, '-essentials.msg.magic', '', '');
+INSERT INTO `{permissions}` VALUES (241, 'joueur', 0, '-essentials.msg.url', '', '');
+INSERT INTO `{permissions}` VALUES (240, 'joueur', 0, '-essentials.chat.color', '', '');
+INSERT INTO `{permissions}` VALUES (239, 'joueur', 0, '-essentials.chat.format', '', '');
+INSERT INTO `{permissions}` VALUES (238, 'joueur', 0, '-essentials.chat.magic', '', '');
+INSERT INTO `{permissions}` VALUES (237, 'joueur', 0, '-essentials.chat.question', '', '');
+INSERT INTO `{permissions}` VALUES (236, 'joueur', 0, '-essentials.chat.shout', '', '');
+INSERT INTO `{permissions}` VALUES (235, 'joueur', 0, '-essentials.chat.spy', '', '');
+INSERT INTO `{permissions}` VALUES (234, 'joueur', 0, '-essentials.chat.url', '', '');
+INSERT INTO `{permissions}` VALUES (233, 'joueur', 0, 'essentials.pay', '', '');
+INSERT INTO `{permissions}` VALUES (232, 'joueur', 0, 'essentials.tpa', '', '');
+INSERT INTO `{permissions}` VALUES (231, 'joueur', 0, 'essentials.tpaccept', '', '');
+INSERT INTO `{permissions}` VALUES (230, 'joueur', 0, 'essentials.tpahere', '', '');
+INSERT INTO `{permissions}` VALUES (229, 'joueur', 0, 'essentials.tpdeny', '', '');
+INSERT INTO `{permissions}` VALUES (228, 'joueur', 0, 'essentials.tphere', '', '');
+INSERT INTO `{permissions}` VALUES (227, 'joueur', 0, 'essentials.help', '', '');
+INSERT INTO `{permissions}` VALUES (247, 'joueur', 0, 'essentials.mail', '', '');
+INSERT INTO `{permissions}` VALUES (248, 'joueur', 0, 'essentials.list', '', '');
+INSERT INTO `{permissions}` VALUES (249, 'joueur', 0, 'essentials.balancetop', '', '');
+INSERT INTO `{permissions}` VALUES (250, 'joueur', 0, 'essentials.afk', '', '');
+
+CREATE TABLE `permissions_entity` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `type` tinyint(1) NOT NULL,
+  `default` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `name` (`name`,`type`),
+  KEY `default` (`default`)
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4;
+INSERT INTO `{permissions_entity}` VALUES (1, 'default', 0, 0);
+INSERT INTO `{permissions_entity}` VALUES (2, 'joueur', 0, 0);
+INSERT INTO `{permissions_entity}` VALUES (3, 'VIP', 0, 0);
+INSERT INTO `{permissions_entity}` VALUES (4, 'VIP+', 0, 0);
+INSERT INTO `{permissions_entity}` VALUES (5, 'MVP', 0, 0);
+INSERT INTO `{permissions_entity}` VALUES (6, 'modochat', 0, 0);
+INSERT INTO `{permissions_entity}` VALUES (7, 'admin', 0, 0);
+INSERT INTO `{permissions_entity}` VALUES (8, 'responsablemodo', 0, 0);
+INSERT INTO `{permissions_entity}` VALUES (9, 'fondateur', 0, 0);
+INSERT INTO `{permissions_entity}` VALUES (10, '2050a37d-a387-3edc-bb3a-5d8b1bf468ae', 1, 0);
+
+CREATE TABLE `permissions_inheritance` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `child` varchar(50) NOT NULL,
+  `parent` varchar(50) NOT NULL,
+  `type` tinyint(1) NOT NULL,
+  `world` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `child` (`child`,`parent`,`type`,`world`),
+  KEY `child_2` (`child`,`type`),
+  KEY `parent` (`parent`,`type`)
+) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4;
+INSERT INTO `{permissions_inheritance}` VALUES (16, '2050a37d-a387-3edc-bb3a-5d8b1bf468ae', 'fondateur', 1, null);
+INSERT INTO `{permissions_inheritance}` VALUES (14, 'VIP', 'joueur', 0, null);
+

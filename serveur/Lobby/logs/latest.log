@@ -1,0 +1,1468 @@
+[12:20:49] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[12:20:49] [Server thread/INFO]: Loading properties
+[12:20:49] [Server thread/INFO]: Default game type: SURVIVAL
+[12:20:49] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-3d850ec-809c399 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[12:20:49] [Server thread/INFO]: Debug logging is disabled
+[12:20:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:20:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:20:49] [Server thread/INFO]: Generating keypair
+[12:20:49] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[12:20:49] [Server thread/INFO]: Using default channel type
+[12:20:50] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:20:51] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[12:20:51] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[12:20:51] [Server thread/INFO]: [plugin-admin] Loading plugin-admin v1.0
+[12:20:51] [Server thread/INFO]: [DiscordMC] Loading DiscordMC v1.5.0
+[12:20:51] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[12:20:51] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[12:20:51] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, injecting!
+[12:20:51] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[12:20:51] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[12:20:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:20:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:20:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:20:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:20:51] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:20:51] [Server thread/INFO]: Preparing level "world"
+[12:20:51] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:20:51] [Server thread/INFO]: View Distance: 10
+[12:20:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:20:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:20:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:20:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:20:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:20:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:20:51] [Server thread/INFO]: Mob Spawn Range: 4
+[12:20:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:20:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:20:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:20:51] [Server thread/INFO]: Random Lighting Updates: false
+[12:20:51] [Server thread/INFO]: Max TNT Explosions: 100
+[12:20:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:20:51] [Server thread/INFO]: Structure Info Saving: true
+[12:20:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:20:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:20:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:20:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:20:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:20:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:20:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:20:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:20:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:20:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:20:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:20:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:20:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:20:52] [Server thread/INFO]: View Distance: 10
+[12:20:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:20:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:20:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:20:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:20:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:20:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:20:52] [Server thread/INFO]: Mob Spawn Range: 4
+[12:20:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:20:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:20:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:20:52] [Server thread/INFO]: Random Lighting Updates: false
+[12:20:52] [Server thread/INFO]: Max TNT Explosions: 100
+[12:20:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:20:52] [Server thread/INFO]: Structure Info Saving: true
+[12:20:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:20:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:20:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:20:52] [Server thread/INFO]: View Distance: 10
+[12:20:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:20:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:20:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:20:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:20:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:20:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:20:52] [Server thread/INFO]: Mob Spawn Range: 4
+[12:20:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:20:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:20:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:20:52] [Server thread/INFO]: Random Lighting Updates: false
+[12:20:52] [Server thread/INFO]: Max TNT Explosions: 100
+[12:20:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:20:52] [Server thread/INFO]: Structure Info Saving: true
+[12:20:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:20:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:20:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:20:53] [Server thread/INFO]: Preparing start region for level 0 (Seed: 9104829196595395479)
+[12:20:54] [Server thread/INFO]: Preparing spawn area: 66%
+[12:20:54] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1569429491651328889)
+[12:20:55] [Server thread/INFO]: Preparing spawn area: 52%
+[12:20:55] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1569429491651328889)
+[12:20:56] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[12:20:56] [Server thread/INFO]: [PermissionsEx] Initializing sql backend
+[12:20:56] [Server thread/WARN]: Sat Jun 23 12:20:56 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[12:20:56] [Server thread/WARN]: Sat Jun 23 12:20:56 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[12:20:56] [Server thread/INFO]: [PermissionsEx] Successfully connected to SQL database
+[12:20:57] [Server thread/INFO]: [plugin-admin] Enabling plugin-admin v1.0
+[12:20:57] [Server thread/INFO]: [modérration 1.0] vien de s'allumer
+[12:20:57] [Server thread/INFO]: [DiscordMC] Enabling DiscordMC v1.5.0
+[12:20:57] [Server thread/WARN]: [DiscordMC] You haven't entered a valid token for your bot. See Spigot page for a tutorial.
+[12:20:57] [Server thread/INFO]: [DiscordMC] Disabling DiscordMC v1.5.0
+[12:20:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[12:20:58] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[12:20:58] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[12:20:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[12:20:58] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[12:20:58] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[12:20:58] [Server thread/INFO]: git-Spigot-3d850ec-809c399 (MC: 1.12.2)
+[12:20:58] [Server thread/INFO]: 1.12.2-R0.1-SNAPSHOT
+[12:20:58] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[12:20:58] [Server thread/INFO]: Using locale fr_FR
+[12:20:58] [pool-7-thread-1/WARN]: java.io.IOException: Server returned HTTP response code: 401 for URL: https://api.github.com/gists
+[12:20:58] [pool-7-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[12:20:58] [pool-7-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[12:20:58] [pool-7-thread-1/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[12:20:58] [pool-7-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.gistText(ErrorReport.java:120)
+[12:20:58] [pool-7-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$Builder.build(ErrorReport.java:374)
+[12:20:58] [pool-7-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.withException(ErrorReport.java:330)
+[12:20:58] [pool-7-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$2.run(ErrorReport.java:193)
+[12:20:58] [pool-7-thread-1/WARN]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[12:20:58] [pool-7-thread-1/WARN]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[12:20:58] [pool-7-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[12:20:58] [pool-7-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[12:20:58] [pool-7-thread-1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:20:58] [Server thread/INFO]: Using locale fr_FR
+[12:20:59] [pool-7-thread-1/ERROR]: [PermissionsEx] Error occurred with PermissionsEx! Please post it to http://git.io/<html><body>You are being <a href="https://git.io/create">redirected</a>.</body></html>. Full error:
+ru.tehkode.permissions.exceptions.PermissionBackendException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:186)
+	at ru.tehkode.permissions.backends.PermissionBackend.performSchemaUpdate(PermissionBackend.java:90)
+	at ru.tehkode.permissions.backends.sql.SQLBackend.<init>(SQLBackend.java:192)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:392)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:367)
+	at ru.tehkode.permissions.PermissionManager.createBackend(PermissionManager.java:624)
+	at ru.tehkode.permissions.PermissionManager.setBackend(PermissionManager.java:606)
+	at ru.tehkode.permissions.PermissionManager.initBackend(PermissionManager.java:693)
+	at ru.tehkode.permissions.PermissionManager.<init>(PermissionManager.java:67)
+	at ru.tehkode.permissions.bukkit.PermissionsEx.onEnable(PermissionsEx.java:175)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:382)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:331)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:161)
+	... 24 more
+
+[12:20:59] [Server thread/INFO]: Essentials: Using PermissionsEx based permissions.
+[12:20:59] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[12:20:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:20:59] [Server thread/INFO]: Done (7,776s)! For help, type "help" or "?"
+[12:20:59] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[12:20:59] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version, please read our resource page carefully.
+[12:21:04] [User Authenticator #1/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[12:21:05] [Server thread/INFO]: flux666[/127.0.0.1:54473] logged in with entity id 115 at ([world]380.7496021293719, 4.0, 18.542728967433412)
+[12:21:05] [Craft Scheduler Thread - 3/WARN]: File motd.txt does not exist. Creating one for you.
+[12:21:06] [pool-10-thread-1/INFO]: Création d'une configuration vierge : C:\Users\Maison Martin\Desktop\network\serveur\Lobby\plugins\Essentials\userdata\2050a37d-a387-3edc-bb3a-5d8b1bf468ae.yml
+[12:21:12] [Async Chat Thread - #0/INFO]: [m<[0;31;22m[21m[[0;31;1mFONDATEUR[0;31;22m[21m][0;30;22m [0;31;22m[0;31;22mflux666[m> g[m
+[12:21:21] [Server thread/INFO]: flux666 lost connection: Disconnected
+[12:21:21] [Server thread/INFO]: flux666 left the game
+[12:36:36] [User Authenticator #2/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[12:36:36] [Server thread/INFO]: flux666[/127.0.0.1:54735] logged in with entity id 129 at ([world]380.7496021293719, 4.0, 18.542728967433412)
+[12:36:55] [Server thread/INFO]: flux666 issued server command: /pex user flux666
+[12:36:55] [Server thread/WARN]: [PermissionsEx] User flux666 tried to access chat command "pex user flux666", but doesn't have permission to do this.
+[12:37:16] [Server thread/INFO]: [PermissionsEx] version [1.23.4][m
+[12:37:16] [Server thread/INFO]: Usage:[m
+[12:37:16] [Server thread/INFO]: /pex - Display help[m
+[12:37:16] [Server thread/INFO]: /pex reload - Reload environment[m
+[12:37:16] [Server thread/INFO]: /pex report - Report an issue with PEX[m
+[12:37:16] [Server thread/INFO]: /pex config <node> [value] - Print or set <node> [value][m
+[12:37:16] [Server thread/INFO]: /pex backend - Print currently used backend[m
+[12:37:16] [Server thread/INFO]: /pex backend <backend> - Change permission backend on the fly (Use with caution!)[m
+[12:37:16] [Server thread/INFO]: /pex hierarchy [world] - Print complete user/group hierarchy[m
+[12:37:16] [Server thread/INFO]: /pex import <backend> - Import data from <backend> into currently selected backend[m
+[12:37:16] [Server thread/INFO]: /pex convert uuid - Bulk convert user data to UUID-based storage[m
+[12:37:16] [Server thread/INFO]: /pex toggle debug - Enable/disable debug mode[m
+[12:37:16] [Server thread/INFO]: /pex help [page] [count] - PermissionsEx commands help[m
+[12:37:16] [Server thread/INFO]: /pex users list - List all registered users[m
+[12:37:16] [Server thread/INFO]: /pex users - List all registered users (alias)[m
+[12:37:16] [Server thread/INFO]: /pex user - List all registered users (alias)[m
+[12:37:16] [Server thread/INFO]: /pex user <user> - List user permissions (list alias)[m
+[12:37:16] [Server thread/INFO]: /pex user <user> list [world] - List user permissions[m
+[12:37:16] [Server thread/INFO]: /pex user <user> superperms - List user actual superperms[m
+[12:37:16] [Server thread/INFO]: /pex user <user> prefix [newprefix] [world] - Get or set <user> prefix[m
+[12:37:16] [Server thread/INFO]: /pex user <user> suffix [newsuffix] [world] - Get or set <user> suffix[m
+[12:37:16] [Server thread/INFO]: /pex user <user> toggle debug - Toggle debug only for <user>[m
+[12:37:16] [Server thread/INFO]: /pex user <user> check <permission> [world] - Checks player for <permission>[m
+[12:37:16] [Server thread/INFO]: /pex user <user> get <option> [world] - Toggle debug only for <user>[m
+[12:37:16] [Server thread/INFO]: /pex user <user> delete - Remove <user>[m
+[12:37:16] [Server thread/INFO]: /pex user <user> add <permission> [world] - Add <permission> to <user> in [world][m
+[12:37:16] [Server thread/INFO]: /pex user <user> remove <permission> [world] - Remove permission from <user> in [world][m
+[12:37:16] [Server thread/INFO]: /pex user <user> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[12:37:16] [Server thread/INFO]: /pex user <user> timed add <permission> [lifetime] [world] - Add timed <permissions> to <user> for [lifetime] seconds in [world][m
+[12:37:16] [Server thread/INFO]: /pex user <user> timed remove <permission> [world] - Remove timed <permission> from <user> in [world][m
+[12:37:16] [Server thread/INFO]: /pex user <user> set <option> <value> [world] - Set <option> to <value> in [world][m
+[12:37:16] [Server thread/INFO]: /pex user <user> group list [world] - List all <user> groups[m
+[12:37:16] [Server thread/INFO]: /pex user <user> group add <group> [world] [lifetime] - Add <user> to <group>[m
+[12:37:16] [Server thread/INFO]: /pex user <user> group set <group> [world] - Set <group> for <user>[m
+[12:37:16] [Server thread/INFO]: /pex user <user> group remove <group> [world] - Remove <user> from <group>[m
+[12:37:16] [Server thread/INFO]: /pex users cleanup <group> [threshold] - Clean users of specified group, which last login was before threshold (in days). By default threshold is 30 days.[m
+[12:37:16] [Server thread/INFO]: /pex group <group> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[12:37:16] [Server thread/INFO]: /pex groups list [world] - List all registered groups[m
+[12:37:16] [Server thread/INFO]: /pex groups - List all registered groups (alias)[m
+[12:37:16] [Server thread/INFO]: /pex group - List all registered groups (alias)[m
+[12:37:16] [Server thread/INFO]: /pex group <group> weight [weight] - Print or set group weight[m
+[12:37:16] [Server thread/INFO]: /pex group <group> toggle debug - Toggle debug mode for group[m
+[12:37:16] [Server thread/INFO]: /pex group <group> prefix [newprefix] [world] - Get or set <group> prefix.[m
+[12:37:16] [Server thread/INFO]: /pex group <group> suffix [newsuffix] [world] - Get or set <group> suffix[m
+[12:37:16] [Server thread/INFO]: /pex group <group> create [parents] - Create <group> and/or set [parents][m
+[12:37:16] [Server thread/INFO]: /pex group <group> delete - Remove <group>[m
+[12:37:16] [Server thread/INFO]: /pex group <group> parents [world] - List parents for <group> (alias)[m
+[12:37:16] [Server thread/INFO]: /pex group <group> parents list [world] - List parents for <group>[m
+[12:37:16] [Server thread/INFO]: /pex group <group> parents set <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[12:37:16] [Server thread/INFO]: /pex group <group> parents add <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[12:37:16] [Server thread/INFO]: /pex group <group> parents remove <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[12:37:16] [Server thread/INFO]: /pex group <group> - List all <group> permissions (alias)[m
+[12:37:16] [Server thread/INFO]: /pex group <group> list [world] - List all <group> permissions in [world][m
+[12:37:16] [Server thread/INFO]: /pex group <group> add <permission> [world] - Add <permission> to <group> in [world][m
+[12:37:16] [Server thread/INFO]: /pex group <group> set <option> <value> [world] - Set <option> <value> for <group> in [world][m
+[12:37:16] [Server thread/INFO]: /pex group <group> remove <permission> [world] - Remove <permission> from <group> in [world][m
+[12:37:16] [Server thread/INFO]: /pex group <group> timed add <permission> [lifetime] [world] - Add timed <permission> to <group> with [lifetime] in [world][m
+[12:37:16] [Server thread/INFO]: /pex group <group> timed remove <permission> [world] - Remove timed <permissions> for <group> in [world][m
+[12:37:16] [Server thread/INFO]: /pex group <group> users - List all users in <group>[m
+[12:37:16] [Server thread/INFO]: /pex group <group> user add <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[12:37:16] [Server thread/INFO]: /pex group <group> user remove <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[12:37:16] [Server thread/INFO]: /pex default group [world] - Print default groups for specified world[m
+[12:37:16] [Server thread/INFO]: /pex set default group <group> <value> [world] - Set whether a group is default for specified worlds[m
+[12:37:16] [Server thread/INFO]: /pex group <group> rank [rank] [ladder] - Get or set <group> [rank] [ladder][m
+[12:37:16] [Server thread/INFO]: /pex promote <user> [ladder] - Promotes <user> to next group on [ladder][m
+[12:37:16] [Server thread/INFO]: /pex demote <user> [ladder] - Demotes <user> to previous group or [ladder][m
+[12:37:16] [Server thread/INFO]: /pex worlds - Print loaded worlds[m
+[12:37:16] [Server thread/INFO]: /pex world <world> - Print <world> inheritance info[m
+[12:37:16] [Server thread/INFO]: /pex world <world> inherit <parentWorlds> - Set <parentWorlds> for <world>[m
+[12:38:33] [Server thread/INFO]: [0;37;1mPermission "*" added![m
+[12:38:38] [Server thread/INFO]: De-opped flux666
+[12:38:43] [Server thread/INFO]: flux666 issued server command: /op flux666
+[12:38:43] [Server thread/INFO]: [flux666: Opped flux666]
+[12:38:47] [Server thread/INFO]: flux666 issued server command: /deop flux666
+[12:38:47] [Server thread/INFO]: [flux666: De-opped flux666]
+[12:38:49] [Server thread/INFO]: flux666 issued server command: /op flux666
+[12:38:49] [Server thread/INFO]: [flux666: Opped flux666]
+[12:38:54] [Server thread/INFO]: flux666 issued server command: /deop flux666
+[12:38:54] [Server thread/INFO]: [flux666: De-opped flux666]
+[12:38:59] [Server thread/INFO]: flux666 issued server command: /deop flux666
+[12:38:59] [Server thread/INFO]: [flux666: Could not de-op flux666]
+[12:39:01] [Server thread/INFO]: flux666 issued server command: /deop flux666
+[12:39:01] [Server thread/INFO]: [flux666: Could not de-op flux666]
+[12:39:02] [Server thread/INFO]: flux666 issued server command: /deop flux666
+[12:39:02] [Server thread/INFO]: [flux666: Could not de-op flux666]
+[12:39:05] [Server thread/INFO]: flux666 issued server command: /op list
+[12:39:05] [Server thread/INFO]: [flux666: Opped list]
+[12:39:11] [Server thread/INFO]: flux666 issued server command: /list op
+[12:39:31] [Server thread/INFO]: flux666 issued server command: /op
+[12:39:37] [Server thread/INFO]: flux666 issued server command: /deop
+[12:39:39] [Server thread/INFO]: flux666 issued server command: /deop list
+[12:39:39] [Server thread/INFO]: [flux666: De-opped list]
+[12:39:45] [Server thread/INFO]: flux666 issued server command: /oplist
+[12:39:49] [Server thread/INFO]: flux666 issued server command: /listop
+[12:40:26] [Server thread/INFO]: flux666 issued server command: /help
+[12:40:38] [Server thread/INFO]: flux666 issued server command: /help ViaVersion
+[12:40:44] [Server thread/INFO]: flux666 issued server command: /viaversion
+[12:41:25] [Server thread/INFO]: flux666 issued server command: /ciaversion list
+[12:41:30] [Server thread/INFO]: flux666 issued server command: /viaversion list
+[12:41:36] [Server thread/INFO]: flux666 issued server command: /viaversion pps
+[12:41:43] [Server thread/INFO]: flux666 issued server command: /viaversion help
+[12:41:54] [Server thread/INFO]: flux666 issued server command: /viaversion displayleaks
+[12:41:57] [Server thread/INFO]: flux666 issued server command: /viaversion displayleaks
+[12:41:58] [Server thread/INFO]: flux666 issued server command: /viaversion displayleaks
+[12:42:09] [Server thread/INFO]: flux666 issued server command: /viaversion autoteam
+[12:42:16] [Server thread/INFO]: flux666 issued server command: /viaversion autoteam
+[12:42:22] [Server thread/INFO]: flux666 issued server command: /viaversion
+[12:42:29] [Server thread/INFO]: flux666 issued server command: /viaversion dumps
+[12:42:32] [Server thread/INFO]: flux666 issued server command: /viaversion dump
+[12:42:33] [Craft Scheduler Thread - 12/WARN]: [ViaVersion] Could not paste ViaVersion dump to Gist
+java.io.IOException: Server returned HTTP response code: 401 for URL: https://api.github.com/gists
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_131]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_131]
+	at us.myles.ViaVersion.commands.defaultsubs.DumpSubCmd$1.run(DumpSubCmd.java:87) [ViaVersion-1.3.0.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:71) [spigot.jar:git-Spigot-3d850ec-809c399]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-3d850ec-809c399]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_131]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+[13:27:43] [Server thread/INFO]: [Essentials] Lag Notice - Slow Permissions System (PermissionsEx) Response - Request took over 89,201ms!
+[13:29:38] [Server thread/INFO]: flux666 issued server command: /pex user flux666 remove *
+[13:29:47] [Server thread/INFO]: flux666 issued server command: /msg
+[13:29:47] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[13:29:52] [Server thread/INFO]: flux666 issued server command: /lol
+[13:30:09] [Server thread/INFO]: [0;37;1mPermission "*" added![m
+[13:30:12] [Server thread/INFO]: flux666 issued server command: /msg
+[13:30:18] [Server thread/INFO]: flux666 issued server command: /msg flux666 flux666
+[13:30:24] [Server thread/INFO]: flux666 issued server command: /msg flux666 flux666
+[13:30:26] [Server thread/INFO]: flux666 issued server command: /msg flux666 flux666
+[13:31:31] [Server thread/INFO]: flux666 issued server command: /ping
+[13:32:55] [Server thread/INFO]: flux666 issued server command: /tpall
+[13:33:08] [Server thread/INFO]: flux666 issued server command: /tpall
+[13:33:40] [Server thread/INFO]: flux666 issued server command: /tpa flux666
+[13:33:43] [Server thread/INFO]: flux666 issued server command: /tpa flux666 flux666
+[13:33:48] [Server thread/INFO]: flux666 issued server command: /tpa flux
+[13:35:00] [Server thread/INFO]: flux666 issued server command: /geoip
+[13:35:20] [Server thread/INFO]: flux666 issued server command: /op flux666
+[13:35:20] [Server thread/INFO]: [flux666: Opped flux666]
+[13:35:31] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[13:37:33] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[13:37:33] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[13:37:34] [Server thread/WARN]: Sat Jun 23 13:37:34 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[13:37:34] [Server thread/INFO]: [0;37;1m[PermissionsEx] Data from "file" loaded into currently active backend[m
+[13:37:40] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[13:37:40] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[13:37:40] [Server thread/INFO]: Debug logging is disabled
+[13:37:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:37:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:37:40] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:37:40] [Server thread/INFO]: View Distance: 10
+[13:37:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:37:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:37:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:37:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:37:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:37:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:37:40] [Server thread/INFO]: Mob Spawn Range: 4
+[13:37:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:37:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:37:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:37:40] [Server thread/INFO]: Random Lighting Updates: false
+[13:37:40] [Server thread/INFO]: Max TNT Explosions: 100
+[13:37:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:37:40] [Server thread/INFO]: Structure Info Saving: true
+[13:37:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:37:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:37:40] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:37:40] [Server thread/INFO]: View Distance: 10
+[13:37:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:37:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:37:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:37:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:37:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:37:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:37:40] [Server thread/INFO]: Mob Spawn Range: 4
+[13:37:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:37:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:37:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:37:40] [Server thread/INFO]: Random Lighting Updates: false
+[13:37:40] [Server thread/INFO]: Max TNT Explosions: 100
+[13:37:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:37:40] [Server thread/INFO]: Structure Info Saving: true
+[13:37:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:37:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:37:40] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:37:40] [Server thread/INFO]: View Distance: 10
+[13:37:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:37:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:37:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:37:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:37:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:37:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:37:40] [Server thread/INFO]: Mob Spawn Range: 4
+[13:37:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:37:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:37:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:37:40] [Server thread/INFO]: Random Lighting Updates: false
+[13:37:40] [Server thread/INFO]: Max TNT Explosions: 100
+[13:37:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:37:40] [Server thread/INFO]: Structure Info Saving: true
+[13:37:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:37:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:37:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:37:40] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vTeamCity
+[13:37:40] [Server thread/INFO]: [Essentials] Disabling Essentials vTeamCity
+[13:37:40] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.3.0
+[13:37:40] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[13:37:40] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[13:37:40] [Server thread/INFO]: [plugin-admin] Disabling plugin-admin v1.0
+[13:37:40] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[13:37:44] [Server thread/ERROR]: Nag author: 'Zenexer' of 'Essentials' about the following: This plugin is not properly shutting down its async tasks when it is being reloaded.  This may cause conflicts with the newly loaded version of the plugin
+[13:37:45] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[13:37:45] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[13:37:45] [Server thread/INFO]: [plugin-admin] Loading plugin-admin v1.0
+[13:37:45] [Server thread/INFO]: [DiscordMC] Loading DiscordMC v1.5.0
+[13:37:45] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[13:37:45] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[13:37:45] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, injecting!
+[13:37:45] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[13:37:45] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[13:37:45] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[13:37:45] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[13:37:45] [Server thread/INFO]: [PermissionsEx] Initializing sql backend
+[13:37:45] [Server thread/WARN]: Sat Jun 23 13:37:45 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[13:37:45] [Server thread/WARN]: Sat Jun 23 13:37:45 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[13:37:45] [Server thread/INFO]: [PermissionsEx] Successfully connected to SQL database
+[13:37:46] [pool-18-thread-1/WARN]: java.io.IOException: Server returned HTTP response code: 401 for URL: https://api.github.com/gists
+[13:37:46] [pool-18-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[13:37:46] [pool-18-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[13:37:46] [pool-18-thread-1/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[13:37:46] [pool-18-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.gistText(ErrorReport.java:120)
+[13:37:46] [pool-18-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$Builder.build(ErrorReport.java:374)
+[13:37:46] [pool-18-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.withException(ErrorReport.java:330)
+[13:37:46] [pool-18-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$2.run(ErrorReport.java:193)
+[13:37:46] [pool-18-thread-1/WARN]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[13:37:46] [pool-18-thread-1/WARN]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[13:37:46] [pool-18-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[13:37:46] [pool-18-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[13:37:46] [pool-18-thread-1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:37:46] [Server thread/INFO]: [plugin-admin] Enabling plugin-admin v1.0
+[13:37:46] [Server thread/INFO]: [modérration 1.0] vien de s'allumer
+[13:37:46] [Server thread/INFO]: [DiscordMC] Enabling DiscordMC v1.5.0
+[13:37:46] [Server thread/WARN]: [DiscordMC] You haven't entered a valid token for your bot. See Spigot page for a tutorial.
+[13:37:46] [Server thread/INFO]: [DiscordMC] Disabling DiscordMC v1.5.0
+[13:37:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[13:37:46] [pool-18-thread-1/ERROR]: [PermissionsEx] Error occurred with PermissionsEx! Please post it to http://git.io/<html><body>You are being <a href="https://git.io/create">redirected</a>.</body></html>. Full error:
+ru.tehkode.permissions.exceptions.PermissionBackendException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:186)
+	at ru.tehkode.permissions.backends.PermissionBackend.performSchemaUpdate(PermissionBackend.java:90)
+	at ru.tehkode.permissions.backends.sql.SQLBackend.<init>(SQLBackend.java:192)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:392)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:367)
+	at ru.tehkode.permissions.PermissionManager.createBackend(PermissionManager.java:624)
+	at ru.tehkode.permissions.PermissionManager.setBackend(PermissionManager.java:606)
+	at ru.tehkode.permissions.PermissionManager.initBackend(PermissionManager.java:693)
+	at ru.tehkode.permissions.PermissionManager.<init>(PermissionManager.java:67)
+	at ru.tehkode.permissions.bukkit.PermissionsEx.onEnable(PermissionsEx.java:175)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:382)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:331)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:753)
+	at org.bukkit.Bukkit.reload(Bukkit.java:525)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:635)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:444)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:407)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:161)
+	... 29 more
+
+[13:37:47] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[13:37:47] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[13:37:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[13:37:47] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[13:37:47] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[13:37:47] [Server thread/INFO]: git-Spigot-3d850ec-809c399 (MC: 1.12.2)
+[13:37:47] [Server thread/INFO]: 1.12.2-R0.1-SNAPSHOT
+[13:37:47] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[13:37:47] [Server thread/INFO]: [Essentials] Found 1 files to convert...
+[13:37:47] [Server thread/INFO]: [Essentials] Converted 0/1
+[13:37:47] [Server thread/INFO]: [Essentials] Ban format update complete.
+[13:37:47] [Server thread/INFO]: Using locale fr_FR
+[13:37:47] [Server thread/INFO]: Using locale fr_FR
+[13:37:47] [Server thread/INFO]: Essentials: Using PermissionsEx based permissions.
+[13:37:47] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[13:37:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:37:48] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[13:37:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[13:37:48] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version, please read our resource page carefully.
+[13:37:52] [Server thread/INFO]: flux666 issued server command: /pex user flux666
+[13:37:52] [Server thread/WARN]: [PermissionsEx] User flux666 tried to access chat command "pex user flux666", but doesn't have permission to do this.
+[13:37:59] [Server thread/INFO]: [0;37;1mPermission "*" added![m
+[13:38:02] [Server thread/INFO]: flux666 issued server command: /pex user flux666
+[13:38:18] [Server thread/INFO]: flux666 issued server command: /pex user flux666 group set joueur
+[13:38:20] [Async Chat Thread - #1/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;30;22m [0;31;22mflux666[m> g[m
+[13:38:27] [Server thread/INFO]: flux666 issued server command: /deop flux666
+[13:38:27] [Server thread/INFO]: [flux666: De-opped flux666]
+[13:38:28] [Async Chat Thread - #1/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;30;22m flux666[m> g[m
+[13:39:44] [Async Chat Thread - #2/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;30;22m flux666[m> g[m
+[13:39:59] [Server thread/INFO]: flux666 issued server command: /pex user flux666 remove *
+[13:40:09] [Server thread/INFO]: flux666 issued server command: /msg flux666 flux666
+[13:40:15] [Server thread/INFO]: flux666 issued server command: /msg flux666 flux666
+[13:40:22] [Server thread/INFO]: flux666 issued server command: /mail
+[13:40:25] [Server thread/INFO]: flux666 issued server command: /help
+[13:40:25] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[13:40:52] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[13:40:52] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[13:40:52] [pool-17-thread-1/WARN]: Sat Jun 23 13:40:52 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[13:40:52] [Server thread/INFO]: [0;37;1m[PermissionsEx] Data from "file" loaded into currently active backend[m
+[13:40:54] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[13:40:54] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[13:40:54] [Server thread/INFO]: Debug logging is disabled
+[13:40:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:40:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:40:54] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:40:54] [Server thread/INFO]: View Distance: 10
+[13:40:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:40:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:40:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:40:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:40:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:40:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:40:54] [Server thread/INFO]: Mob Spawn Range: 4
+[13:40:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:40:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:40:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:40:54] [Server thread/INFO]: Random Lighting Updates: false
+[13:40:54] [Server thread/INFO]: Max TNT Explosions: 100
+[13:40:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:40:54] [Server thread/INFO]: Structure Info Saving: true
+[13:40:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:40:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:40:54] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:40:54] [Server thread/INFO]: View Distance: 10
+[13:40:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:40:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:40:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:40:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:40:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:40:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:40:54] [Server thread/INFO]: Mob Spawn Range: 4
+[13:40:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:40:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:40:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:40:54] [Server thread/INFO]: Random Lighting Updates: false
+[13:40:54] [Server thread/INFO]: Max TNT Explosions: 100
+[13:40:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:40:54] [Server thread/INFO]: Structure Info Saving: true
+[13:40:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:40:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:40:54] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:40:54] [Server thread/INFO]: View Distance: 10
+[13:40:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:40:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:40:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:40:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:40:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:40:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:40:54] [Server thread/INFO]: Mob Spawn Range: 4
+[13:40:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:40:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:40:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:40:54] [Server thread/INFO]: Random Lighting Updates: false
+[13:40:54] [Server thread/INFO]: Max TNT Explosions: 100
+[13:40:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:40:54] [Server thread/INFO]: Structure Info Saving: true
+[13:40:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:40:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:40:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:40:54] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vTeamCity
+[13:40:54] [Server thread/INFO]: [Essentials] Disabling Essentials vTeamCity
+[13:40:54] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.3.0
+[13:40:54] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[13:40:54] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[13:40:54] [Server thread/INFO]: [plugin-admin] Disabling plugin-admin v1.0
+[13:40:54] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[13:40:55] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[13:40:55] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[13:40:55] [Server thread/INFO]: [plugin-admin] Loading plugin-admin v1.0
+[13:40:55] [Server thread/INFO]: [DiscordMC] Loading DiscordMC v1.5.0
+[13:40:55] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[13:40:55] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[13:40:55] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, injecting!
+[13:40:55] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[13:40:55] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[13:40:55] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[13:40:55] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[13:40:55] [Server thread/INFO]: [PermissionsEx] Initializing sql backend
+[13:40:55] [Server thread/WARN]: Sat Jun 23 13:40:55 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[13:40:55] [Server thread/WARN]: Sat Jun 23 13:40:55 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[13:40:55] [Server thread/INFO]: [PermissionsEx] Successfully connected to SQL database
+[13:40:56] [pool-27-thread-1/WARN]: java.io.IOException: Server returned HTTP response code: 401 for URL: https://api.github.com/gists
+[13:40:56] [pool-27-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[13:40:56] [pool-27-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[13:40:56] [pool-27-thread-1/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[13:40:56] [pool-27-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.gistText(ErrorReport.java:120)
+[13:40:56] [pool-27-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$Builder.build(ErrorReport.java:374)
+[13:40:56] [pool-27-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.withException(ErrorReport.java:330)
+[13:40:56] [pool-27-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$2.run(ErrorReport.java:193)
+[13:40:56] [pool-27-thread-1/WARN]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[13:40:56] [pool-27-thread-1/WARN]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[13:40:56] [pool-27-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[13:40:56] [pool-27-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[13:40:56] [pool-27-thread-1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:40:56] [Server thread/INFO]: [plugin-admin] Enabling plugin-admin v1.0
+[13:40:56] [Server thread/INFO]: [modérration 1.0] vien de s'allumer
+[13:40:56] [Server thread/INFO]: [DiscordMC] Enabling DiscordMC v1.5.0
+[13:40:56] [Server thread/WARN]: [DiscordMC] You haven't entered a valid token for your bot. See Spigot page for a tutorial.
+[13:40:56] [Server thread/INFO]: [DiscordMC] Disabling DiscordMC v1.5.0
+[13:40:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[13:40:56] [pool-27-thread-1/ERROR]: [PermissionsEx] Error occurred with PermissionsEx! Please post it to http://git.io/<html><body>You are being <a href="https://git.io/create">redirected</a>.</body></html>. Full error:
+ru.tehkode.permissions.exceptions.PermissionBackendException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:186)
+	at ru.tehkode.permissions.backends.PermissionBackend.performSchemaUpdate(PermissionBackend.java:90)
+	at ru.tehkode.permissions.backends.sql.SQLBackend.<init>(SQLBackend.java:192)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:392)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:367)
+	at ru.tehkode.permissions.PermissionManager.createBackend(PermissionManager.java:624)
+	at ru.tehkode.permissions.PermissionManager.setBackend(PermissionManager.java:606)
+	at ru.tehkode.permissions.PermissionManager.initBackend(PermissionManager.java:693)
+	at ru.tehkode.permissions.PermissionManager.<init>(PermissionManager.java:67)
+	at ru.tehkode.permissions.bukkit.PermissionsEx.onEnable(PermissionsEx.java:175)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:382)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:331)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:753)
+	at org.bukkit.Bukkit.reload(Bukkit.java:525)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:635)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:444)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:407)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:161)
+	... 29 more
+
+[13:40:56] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[13:40:57] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[13:40:57] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[13:40:57] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[13:40:57] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[13:40:57] [Server thread/INFO]: git-Spigot-3d850ec-809c399 (MC: 1.12.2)
+[13:40:57] [Server thread/INFO]: 1.12.2-R0.1-SNAPSHOT
+[13:40:57] [Server thread/INFO]: Using locale fr_FR
+[13:40:57] [Server thread/INFO]: Using locale fr_FR
+[13:40:57] [Server thread/INFO]: Essentials: Using PermissionsEx based permissions.
+[13:40:57] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[13:40:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:40:57] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[13:40:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[13:40:57] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version, please read our resource page carefully.
+[13:41:05] [Server thread/INFO]: flux666 issued server command: /help
+[13:41:05] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[13:41:10] [Server thread/INFO]: flux666 issued server command: /help
+[13:41:10] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[13:42:03] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[13:42:03] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[13:42:03] [pool-26-thread-1/WARN]: Sat Jun 23 13:42:03 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[13:42:03] [Server thread/INFO]: [0;37;1m[PermissionsEx] Data from "file" loaded into currently active backend[m
+[13:42:06] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[13:42:06] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[13:42:06] [Server thread/INFO]: Debug logging is disabled
+[13:42:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:42:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:42:06] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:42:06] [Server thread/INFO]: View Distance: 10
+[13:42:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:42:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:42:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:42:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:42:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:42:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:42:06] [Server thread/INFO]: Mob Spawn Range: 4
+[13:42:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:42:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:42:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:42:06] [Server thread/INFO]: Random Lighting Updates: false
+[13:42:06] [Server thread/INFO]: Max TNT Explosions: 100
+[13:42:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:42:06] [Server thread/INFO]: Structure Info Saving: true
+[13:42:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:42:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:42:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:42:06] [Server thread/INFO]: View Distance: 10
+[13:42:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:42:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:42:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:42:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:42:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:42:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:42:06] [Server thread/INFO]: Mob Spawn Range: 4
+[13:42:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:42:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:42:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:42:06] [Server thread/INFO]: Random Lighting Updates: false
+[13:42:06] [Server thread/INFO]: Max TNT Explosions: 100
+[13:42:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:42:06] [Server thread/INFO]: Structure Info Saving: true
+[13:42:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:42:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:42:06] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:42:06] [Server thread/INFO]: View Distance: 10
+[13:42:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:42:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:42:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:42:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:42:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:42:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:42:06] [Server thread/INFO]: Mob Spawn Range: 4
+[13:42:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:42:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:42:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:42:06] [Server thread/INFO]: Random Lighting Updates: false
+[13:42:06] [Server thread/INFO]: Max TNT Explosions: 100
+[13:42:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:42:06] [Server thread/INFO]: Structure Info Saving: true
+[13:42:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:42:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:42:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[13:42:06] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vTeamCity
+[13:42:06] [Server thread/INFO]: [Essentials] Disabling Essentials vTeamCity
+[13:42:06] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.3.0
+[13:42:06] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[13:42:06] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[13:42:06] [Server thread/INFO]: [plugin-admin] Disabling plugin-admin v1.0
+[13:42:06] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[13:42:07] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[13:42:07] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[13:42:07] [Server thread/INFO]: [plugin-admin] Loading plugin-admin v1.0
+[13:42:07] [Server thread/INFO]: [DiscordMC] Loading DiscordMC v1.5.0
+[13:42:07] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[13:42:07] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[13:42:07] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, injecting!
+[13:42:07] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[13:42:07] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[13:42:07] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[13:42:07] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[13:42:07] [Server thread/INFO]: [PermissionsEx] Initializing sql backend
+[13:42:07] [Server thread/WARN]: Sat Jun 23 13:42:07 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[13:42:07] [Server thread/WARN]: Sat Jun 23 13:42:07 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[13:42:07] [Server thread/INFO]: [PermissionsEx] Successfully connected to SQL database
+[13:42:07] [pool-36-thread-1/WARN]: java.io.IOException: Server returned HTTP response code: 401 for URL: https://api.github.com/gists
+[13:42:07] [pool-36-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[13:42:07] [pool-36-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[13:42:07] [pool-36-thread-1/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[13:42:07] [pool-36-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.gistText(ErrorReport.java:120)
+[13:42:07] [pool-36-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$Builder.build(ErrorReport.java:374)
+[13:42:07] [pool-36-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.withException(ErrorReport.java:330)
+[13:42:07] [pool-36-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$2.run(ErrorReport.java:193)
+[13:42:07] [pool-36-thread-1/WARN]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[13:42:07] [pool-36-thread-1/WARN]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[13:42:07] [pool-36-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[13:42:07] [pool-36-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[13:42:07] [pool-36-thread-1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:42:08] [Server thread/INFO]: [plugin-admin] Enabling plugin-admin v1.0
+[13:42:08] [pool-36-thread-1/ERROR]: [PermissionsEx] Error occurred with PermissionsEx! Please post it to http://git.io/<html><body>You are being <a href="https://git.io/create">redirected</a>.</body></html>. Full error:
+ru.tehkode.permissions.exceptions.PermissionBackendException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:186)
+	at ru.tehkode.permissions.backends.PermissionBackend.performSchemaUpdate(PermissionBackend.java:90)
+	at ru.tehkode.permissions.backends.sql.SQLBackend.<init>(SQLBackend.java:192)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:392)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:367)
+	at ru.tehkode.permissions.PermissionManager.createBackend(PermissionManager.java:624)
+	at ru.tehkode.permissions.PermissionManager.setBackend(PermissionManager.java:606)
+	at ru.tehkode.permissions.PermissionManager.initBackend(PermissionManager.java:693)
+	at ru.tehkode.permissions.PermissionManager.<init>(PermissionManager.java:67)
+	at ru.tehkode.permissions.bukkit.PermissionsEx.onEnable(PermissionsEx.java:175)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:382)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:331)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:753)
+	at org.bukkit.Bukkit.reload(Bukkit.java:525)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:635)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:444)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:407)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:161)
+	... 29 more
+
+[13:42:08] [Server thread/INFO]: [modérration 1.0] vien de s'allumer
+[13:42:08] [Server thread/INFO]: [DiscordMC] Enabling DiscordMC v1.5.0
+[13:42:08] [Server thread/WARN]: [DiscordMC] You haven't entered a valid token for your bot. See Spigot page for a tutorial.
+[13:42:08] [Server thread/INFO]: [DiscordMC] Disabling DiscordMC v1.5.0
+[13:42:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[13:42:09] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[13:42:09] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[13:42:09] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[13:42:09] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[13:42:09] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[13:42:09] [Server thread/INFO]: git-Spigot-3d850ec-809c399 (MC: 1.12.2)
+[13:42:09] [Server thread/INFO]: 1.12.2-R0.1-SNAPSHOT
+[13:42:09] [Server thread/INFO]: Using locale fr_FR
+[13:42:09] [Server thread/INFO]: Using locale fr_FR
+[13:42:09] [Server thread/INFO]: Essentials: Using PermissionsEx based permissions.
+[13:42:09] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[13:42:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:42:09] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[13:42:09] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[13:42:09] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version, please read our resource page carefully.
+[13:43:05] [Server thread/INFO]: flux666 issued server command: /help
+[13:43:05] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[13:43:23] [Server thread/INFO]: flux666 issued server command: /ping
+[13:43:23] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[13:43:41] [Server thread/INFO]: flux666 issued server command: /help essentials
+[13:43:41] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[13:43:59] [Server thread/INFO]: flux666 issued server command: /afk
+[13:43:59] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[13:44:23] [Server thread/INFO]: [0;37;1mUser groups set![m
+[13:44:29] [Async Chat Thread - #3/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;30;22m flux666[m> g[m
+[13:44:31] [Server thread/INFO]: flux666 issued server command: /help essentials
+[13:44:34] [Server thread/INFO]: flux666 issued server command: /afk
+[13:44:44] [Server thread/INFO]: flux666 issued server command: /baltop
+[13:44:51] [Server thread/INFO]: flux666 issued server command: /mail
+[13:45:06] [Server thread/INFO]: flux666 issued server command: /mail send flux666 bonjour
+[13:45:40] [Server thread/INFO]: flux666 issued server command: /mail read
+[13:45:55] [Server thread/INFO]: flux666 issued server command: /mail clear
+[13:45:59] [Server thread/INFO]: flux666 issued server command: /mail read
+[13:46:15] [Server thread/INFO]: flux666 issued server command: /help
+[13:46:18] [Server thread/INFO]: flux666 issued server command: /pay
+[13:46:24] [Server thread/INFO]: flux666 issued server command: /tpa flux666
+[13:46:30] [Server thread/INFO]: flux666 issued server command: /help
+[13:46:32] [Server thread/INFO]: flux666 issued server command: /help 2
+[13:46:46] [Server thread/INFO]: flux666 issued server command: /tphere
+[13:46:49] [Server thread/INFO]: flux666 issued server command: /tphere flux666
+[13:47:01] [Server thread/INFO]: flux666 issued server command: /gm 0
+[13:47:01] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[13:47:17] [Server thread/INFO]: [0;37;1mUser groups set![m
+[13:48:02] [Server thread/INFO]: [0;37;1mUser groups set![m
+[13:48:06] [Async Chat Thread - #4/INFO]: [m<[0;30;22m[[0;33;22mVIP[0;30;22m][0;30;22m flux666[m> g[m
+[13:48:26] [Server thread/INFO]: flux666 issued server command: /help
+[13:48:26] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[13:48:28] [Async Chat Thread - #4/INFO]: [m<[0;30;22m[[0;33;22mVIP[0;30;22m][0;30;22m flux666[m> g[m
+[16:34:01] [Server thread/INFO]: flux666 lost connection: Disconnected
+[16:34:03] [Server thread/INFO]: flux666 left the game
+[17:16:57] [User Authenticator #3/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[17:16:58] [Server thread/INFO]: flux666[/127.0.0.1:57814] logged in with entity id 477 at ([world]383.90038495808864, 8.0, 30.388826391605896)
+[17:17:45] [Async Chat Thread - #5/INFO]: [m<[0;30;22m[[0;33;22mVIP[0;30;22m][0;30;22m flux666[m> g[m
+[17:17:55] [Server thread/INFO]: flux666 issued server command: /gm 1
+[17:17:55] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[17:18:05] [Server thread/INFO]: [0;37;1mPermission "*" added![m
+[17:18:09] [Server thread/INFO]: flux666 issued server command: /gm 1
+[17:18:20] [Server thread/INFO]: flux666 issued server command: /pex import file
+[17:18:20] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[17:18:20] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[17:18:21] [Server thread/WARN]: Sat Jun 23 17:18:21 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:18:35] [Server thread/INFO]: flux666 issued server command: /pex import sql
+[17:18:35] [Server thread/INFO]: [PermissionsEx] Initializing sql backend
+[17:18:35] [Server thread/WARN]: Sat Jun 23 17:18:35 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:18:35] [Server thread/WARN]: Sat Jun 23 17:18:35 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:18:35] [Server thread/INFO]: [PermissionsEx] Successfully connected to SQL database
+[17:18:37] [pool-36-thread-1/WARN]: java.io.IOException: Server returned HTTP response code: 401 for URL: https://api.github.com/gists
+[17:18:37] [pool-36-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[17:18:37] [pool-36-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[17:18:37] [pool-36-thread-1/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[17:18:37] [pool-36-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.gistText(ErrorReport.java:120)
+[17:18:37] [pool-36-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$Builder.build(ErrorReport.java:374)
+[17:18:37] [pool-36-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.withException(ErrorReport.java:330)
+[17:18:37] [pool-36-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$2.run(ErrorReport.java:193)
+[17:18:37] [pool-36-thread-1/WARN]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[17:18:37] [pool-36-thread-1/WARN]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[17:18:37] [pool-36-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:18:37] [pool-36-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:18:37] [pool-36-thread-1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[17:18:37] [pool-36-thread-1/ERROR]: [PermissionsEx] Error occurred with PermissionsEx! Please post it to http://git.io/<html><body>You are being <a href="https://git.io/create">redirected</a>.</body></html>. Full error:
+ru.tehkode.permissions.exceptions.PermissionBackendException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:186)
+	at ru.tehkode.permissions.backends.PermissionBackend.performSchemaUpdate(PermissionBackend.java:90)
+	at ru.tehkode.permissions.backends.sql.SQLBackend.<init>(SQLBackend.java:192)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:392)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:367)
+	at ru.tehkode.permissions.PermissionManager.createBackend(PermissionManager.java:624)
+	at ru.tehkode.permissions.bukkit.commands.UtilityCommands.dumpData(UtilityCommands.java:224)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at ru.tehkode.permissions.commands.CommandsManager$CommandBinding.call(CommandsManager.java:248)
+	at ru.tehkode.permissions.commands.CommandsManager.execute(CommandsManager.java:110)
+	at ru.tehkode.permissions.bukkit.PermissionsEx.onCommand(PermissionsEx.java:315)
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649)
+	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1397)
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1232)
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45)
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:1)
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:161)
+	... 33 more
+
+[17:20:40] [Async Chat Thread - #6/INFO]: [m<[0;30;22m[[0;33;22mVIP[0;30;22m][0;30;22m flux666[m> g[m
+[17:20:41] [Server thread/INFO]: flux666 issued server command: /rl
+[17:20:41] [Server thread/INFO]: flux666: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[17:20:41] [Server thread/INFO]: flux666: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[17:20:42] [Server thread/INFO]: Debug logging is disabled
+[17:20:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:20:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:20:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:20:42] [Server thread/INFO]: View Distance: 10
+[17:20:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:20:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:20:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:20:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:20:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:20:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:20:42] [Server thread/INFO]: Mob Spawn Range: 4
+[17:20:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:20:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:20:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:20:42] [Server thread/INFO]: Random Lighting Updates: false
+[17:20:42] [Server thread/INFO]: Max TNT Explosions: 100
+[17:20:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:20:42] [Server thread/INFO]: Structure Info Saving: true
+[17:20:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:20:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[17:20:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:20:42] [Server thread/INFO]: View Distance: 10
+[17:20:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:20:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:20:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:20:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:20:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:20:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:20:42] [Server thread/INFO]: Mob Spawn Range: 4
+[17:20:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:20:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:20:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:20:42] [Server thread/INFO]: Random Lighting Updates: false
+[17:20:42] [Server thread/INFO]: Max TNT Explosions: 100
+[17:20:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:20:42] [Server thread/INFO]: Structure Info Saving: true
+[17:20:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:20:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[17:20:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:20:42] [Server thread/INFO]: View Distance: 10
+[17:20:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:20:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:20:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:20:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:20:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:20:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:20:42] [Server thread/INFO]: Mob Spawn Range: 4
+[17:20:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:20:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:20:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:20:42] [Server thread/INFO]: Random Lighting Updates: false
+[17:20:42] [Server thread/INFO]: Max TNT Explosions: 100
+[17:20:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:20:42] [Server thread/INFO]: Structure Info Saving: true
+[17:20:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:20:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:20:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[17:20:42] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vTeamCity
+[17:20:42] [Server thread/INFO]: [Essentials] Disabling Essentials vTeamCity
+[17:20:42] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.3.0
+[17:20:42] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[17:20:42] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[17:20:42] [Server thread/INFO]: [plugin-admin] Disabling plugin-admin v1.0
+[17:20:42] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[17:20:43] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[17:20:43] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[17:20:43] [Server thread/INFO]: [plugin-admin] Loading plugin-admin v1.0
+[17:20:43] [Server thread/INFO]: [DiscordMC] Loading DiscordMC v1.5.0
+[17:20:43] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[17:20:43] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[17:20:43] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, injecting!
+[17:20:43] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[17:20:50] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[17:20:50] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[17:20:50] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[17:20:50] [Server thread/INFO]: [PermissionsEx] Initializing sql backend
+[17:20:50] [Server thread/WARN]: Sat Jun 23 17:20:50 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:20:51] [Server thread/WARN]: Sat Jun 23 17:20:51 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[17:20:51] [Server thread/INFO]: [PermissionsEx] Successfully connected to SQL database
+[17:20:51] [pool-46-thread-1/WARN]: java.io.IOException: Server returned HTTP response code: 401 for URL: https://api.github.com/gists
+[17:20:51] [pool-46-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[17:20:51] [pool-46-thread-1/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[17:20:51] [pool-46-thread-1/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[17:20:51] [pool-46-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.gistText(ErrorReport.java:120)
+[17:20:51] [pool-46-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$Builder.build(ErrorReport.java:374)
+[17:20:51] [pool-46-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport.withException(ErrorReport.java:330)
+[17:20:51] [pool-46-thread-1/WARN]: 	at ru.tehkode.permissions.bukkit.ErrorReport$2.run(ErrorReport.java:193)
+[17:20:51] [pool-46-thread-1/WARN]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[17:20:51] [pool-46-thread-1/WARN]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[17:20:51] [pool-46-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[17:20:51] [pool-46-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[17:20:51] [pool-46-thread-1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[17:20:51] [Server thread/INFO]: [plugin-admin] Enabling plugin-admin v1.0
+[17:20:51] [Server thread/INFO]: [modérration 1.0] vien de s'allumer
+[17:20:51] [Server thread/INFO]: [DiscordMC] Enabling DiscordMC v1.5.0
+[17:20:51] [Server thread/WARN]: [DiscordMC] You haven't entered a valid token for your bot. See Spigot page for a tutorial.
+[17:20:51] [Server thread/INFO]: [DiscordMC] Disabling DiscordMC v1.5.0
+[17:20:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[17:20:51] [pool-46-thread-1/ERROR]: [PermissionsEx] Error occurred with PermissionsEx! Please post it to http://git.io/<html><body>You are being <a href="https://git.io/create">redirected</a>.</body></html>. Full error:
+ru.tehkode.permissions.exceptions.PermissionBackendException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:186)
+	at ru.tehkode.permissions.backends.PermissionBackend.performSchemaUpdate(PermissionBackend.java:90)
+	at ru.tehkode.permissions.backends.sql.SQLBackend.<init>(SQLBackend.java:192)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:392)
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:367)
+	at ru.tehkode.permissions.PermissionManager.createBackend(PermissionManager.java:624)
+	at ru.tehkode.permissions.PermissionManager.setBackend(PermissionManager.java:606)
+	at ru.tehkode.permissions.PermissionManager.initBackend(PermissionManager.java:693)
+	at ru.tehkode.permissions.PermissionManager.<init>(PermissionManager.java:67)
+	at ru.tehkode.permissions.bukkit.PermissionsEx.onEnable(PermissionsEx.java:175)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:382)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:331)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:753)
+	at org.bukkit.Bukkit.reload(Bukkit.java:525)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:649)
+	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1397)
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1232)
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45)
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:1)
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Champ 'prefix' inconnu dans field list
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.libs.org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at ru.tehkode.permissions.backends.sql.SQLBackend$3.performUpdate(SQLBackend.java:161)
+	... 36 more
+
+[17:20:52] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[17:20:52] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[17:20:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[17:20:52] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[17:20:52] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[17:20:52] [Server thread/INFO]: git-Spigot-3d850ec-809c399 (MC: 1.12.2)
+[17:20:52] [Server thread/INFO]: 1.12.2-R0.1-SNAPSHOT
+[17:20:52] [Server thread/INFO]: Using locale fr_FR
+[17:20:52] [Server thread/INFO]: Using locale fr_FR
+[17:20:52] [Server thread/INFO]: Essentials: Using PermissionsEx based permissions.
+[17:20:52] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[17:20:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:20:52] [Server thread/INFO]: flux666: [0;32;1mReload complete.[m
+[17:20:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[17:20:52] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version, please read our resource page carefully.
+[17:20:53] [Async Chat Thread - #6/INFO]: [m<[0;31;22m[21m[[0;31;1mFONDATEUR[0;31;22m[21m] [0;31;22mflux666[m> g[m
+[17:21:08] [Async Chat Thread - #6/INFO]: [m<[0;31;22m[21m[[0;31;1mFONDATEUR[0;31;22m[21m] [0;31;22mflux666[m> g[m
+[17:21:27] [Server thread/INFO]: [0;37;1mPermission "*" added![m
+[17:21:36] [Server thread/INFO]: flux666 issued server command: /op flux666
+[17:21:36] [Server thread/INFO]: [flux666: Opped flux666]
+[17:21:40] [Server thread/INFO]: flux666 issued server command: /deop flux666
+[17:21:40] [Server thread/INFO]: [flux666: De-opped flux666]
+[17:21:42] [Async Chat Thread - #6/INFO]: [m<[0;31;22m[21m[[0;31;1mFONDATEUR[0;31;22m[21m] [0;31;22mflux666[m> g[m
+[17:21:45] [Server thread/INFO]: flux666 issued server command: /op flux666
+[17:21:45] [Server thread/INFO]: [flux666: Opped flux666]
+[17:21:47] [Async Chat Thread - #6/INFO]: [m<[0;31;22m[21m[[0;31;1mFONDATEUR[0;31;22m[21m] [0;31;22m[0;31;22mflux666[m> g[m
+[17:22:01] [Server thread/INFO]: flux666 issued server command: /pex user flux666 group set joueur
+[17:22:02] [Async Chat Thread - #6/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;37;22m [0;31;22mflux666[m> g[m
+[17:22:06] [Server thread/INFO]: flux666 issued server command: /deop flux666
+[17:22:06] [Server thread/INFO]: [flux666: De-opped flux666]
+[17:22:07] [Async Chat Thread - #6/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;37;22m flux666[m> g[m
+[17:22:40] [Server thread/INFO]: flux666 issued server command: /pex user flux666 group set VIP
+[17:22:42] [Async Chat Thread - #6/INFO]: [m<[0;30;22m[[0;33;22mVIP[0;30;22m][0;37;22m flux666[m> g*[m
+[17:22:48] [Server thread/INFO]: flux666 issued server command: /help
+[17:23:16] [Server thread/INFO]: [0;37;1mPermission "*" removed![m
+[17:23:21] [Server thread/INFO]: flux666 issued server command: /help
+[17:23:26] [Async Chat Thread - #6/INFO]: [m<[0;30;22m[[0;33;22mVIP[0;30;22m][0;37;22m flux666[m> g[m
+[17:23:32] [Server thread/INFO]: flux666 issued server command: /baltop
+[17:23:39] [Server thread/INFO]: flux666 issued server command: /money
+[17:23:39] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[17:23:45] [Server thread/INFO]: flux666 issued server command: /bal
+[17:23:45] [Server thread/INFO]: L'accès à la commande a été refusé pour flux666.
+[17:24:17] [Server thread/INFO]: flux666 issued server command: /msg &2bonjour
+[17:24:23] [Server thread/INFO]: flux666 issued server command: /msg flux666 &2bonjour
+[17:24:33] [Server thread/INFO]: flux666 issued server command: /msg flux666 &2çàbonjour
+[17:33:28] [Server thread/INFO]: flux666 lost connection: Disconnected
+[17:33:28] [Server thread/INFO]: flux666 left the game
+[17:36:48] [User Authenticator #4/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[17:36:48] [Server thread/INFO]: flux666[/127.0.0.1:58559] logged in with entity id 610 at ([world]447.3783774356241, 4.9375, 9.721668143616132)
+[17:47:31] [Server thread/INFO]: flux666 lost connection: Disconnected
+[17:47:31] [Server thread/INFO]: flux666 left the game
+[18:06:49] [User Authenticator #5/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:06:51] [Server thread/INFO]: Player[/127.0.0.1:61224] logged in with entity id 766 at ([world]450.5, 5.0, 7.5)
+[18:06:52] [pool-49-thread-1/INFO]: Création d'une configuration vierge : C:\Users\Maison Martin\Desktop\network\serveur\Lobby\plugins\Essentials\userdata\a01e3843-e521-3998-958a-f459800e4d11.yml
+[18:07:10] [Server thread/INFO]: Player issued server command: /help
+[18:08:30] [User Authenticator #6/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[18:08:31] [Server thread/INFO]: flux666[/127.0.0.1:61249] logged in with entity id 798 at ([world]395.7508389422968, 9.0, 25.411492275137817)
+[18:08:32] [Craft Scheduler Thread - 115/INFO]: [Essentials] Lag Notice - Slow Permissions System (PermissionsEx) Response - Request took over 106,254ms!
+[18:08:51] [Async Chat Thread - #7/INFO]: [Essentials] Lag Notice - Slow Permissions System (PermissionsEx) Response - Request took over 43,873ms!
+[18:08:51] [Async Chat Thread - #7/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;37;22m Player[m> ggggg[m
+[18:08:52] [Async Chat Thread - #7/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;37;22m Player[m> g[m
+[18:08:53] [Async Chat Thread - #7/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;37;22m Player[m> gtg[m
+[18:08:53] [Async Chat Thread - #7/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;37;22m Player[m> g[m
+[18:08:54] [Async Chat Thread - #7/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;37;22m Player[m> g[m
+[18:08:54] [Async Chat Thread - #7/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;37;22m Player[m> g[m
+[18:08:55] [Async Chat Thread - #7/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;37;22m Player[m> g[m
+[18:09:43] [Server thread/INFO]: flux666 lost connection: Disconnected
+[18:09:43] [Server thread/INFO]: flux666 left the game
+[18:10:20] [Server thread/INFO]: Player lost connection: Disconnected
+[18:10:20] [Server thread/INFO]: Player left the game
+[18:14:28] [User Authenticator #7/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[18:14:30] [Server thread/INFO]: flux666[/127.0.0.1:61443] logged in with entity id 822 at ([world]406.9608651864592, 3.09375, 10.448799538464728)
+[18:15:24] [User Authenticator #8/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:15:29] [Server thread/INFO]: Player[/127.0.0.1:61469] logged in with entity id 848 at ([world]411.0877802982953, 3.09375, 10.52160258639587)
+[18:16:28] [Server thread/INFO]: Player lost connection: Disconnected
+[18:16:29] [Server thread/INFO]: Player left the game
+[18:19:19] [Server thread/INFO]: flux666 lost connection: Disconnected
+[18:19:23] [Server thread/INFO]: flux666 left the game
+[18:20:06] [User Authenticator #9/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:20:14] [Server thread/INFO]: Player[/127.0.0.1:61571] logged in with entity id 853 at ([world]442.1451803608941, 4.9375, 10.394127212481406)
+[18:20:16] [Server thread/INFO]: Player lost connection: Disconnected
+[18:20:16] [Server thread/INFO]: Player left the game
+[18:25:07] [User Authenticator #10/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[18:25:12] [Server thread/INFO]: flux666[/127.0.0.1:61652] logged in with entity id 878 at ([world]406.9608651864592, 3.09375, 10.448799538464728)
+[18:25:25] [Server thread/INFO]: flux666 lost connection: Disconnected
+[18:25:25] [Server thread/INFO]: flux666 left the game
+[18:39:57] [User Authenticator #11/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[18:40:14] [Server thread/INFO]: flux666[/127.0.0.1:61788] logged in with entity id 910 at ([world]406.9608651864592, 3.09375, 10.448799538464728)
+[18:40:16] [Craft Scheduler Thread - 161/INFO]: [Essentials] Lag Notice - Slow Permissions System (PermissionsEx) Response - Request took over 395,185ms!
+[18:40:34] [Server thread/INFO]: flux666 lost connection: Disconnected
+[18:40:35] [Server thread/INFO]: flux666 left the game
+[18:40:43] [User Authenticator #12/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:40:43] [Server thread/INFO]: Player[/127.0.0.1:61794] logged in with entity id 936 at ([world]442.1451803608941, 4.9375, 10.394127212481406)
+[18:41:11] [User Authenticator #13/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[18:41:15] [Server thread/INFO]: flux666[/127.0.0.1:61799] logged in with entity id 963 at ([world]406.9608651864592, 3.09375, 10.448799538464728)
+[18:41:15] [Craft Scheduler Thread - 162/INFO]: [Essentials] Lag Notice - Slow Permissions System (PermissionsEx) Response - Request took over 75,667ms!
+[18:41:47] [Async Chat Thread - #8/INFO]: [m<[0;31;22m[21m[[0;31;1mFONDATEUR[0;31;22m[21m] [0;31;22mflux666[m> sa va salle merde[m
+[18:41:54] [Async Chat Thread - #8/INFO]: [m<[0;30;1m[[0;37;22mjoueur[0;30;1m][0;37;22m Player[m> non gros con[m
+[18:41:59] [Async Chat Thread - #8/INFO]: [m<[0;31;22m[21m[[0;31;1mFONDATEUR[0;31;22m[21m] [0;31;22mflux666[m> ok[m
+[18:42:15] [Server thread/INFO]: flux666 issued server command: /ban
+[18:42:35] [Server thread/INFO]: flux666 issued server command: /ban Player insulte modo de con
+[18:42:36] [Server thread/INFO]: Player lost connection: Banni : insulte modo de con
+[18:42:36] [Server thread/INFO]: Player left the game
+[18:42:38] [Server thread/INFO]: §6Le joueur§c §4§l[§cFONDATEUR§4§l] §4flux666§r §6a banni§c Player §6pour §cBanni : insulte modo de con§6.
+[18:42:38] [Server thread/WARN]: handleDisconnection() called twice
+[18:43:13] [Server thread/INFO]: flux666 issued server command: /unban play
+[18:43:24] [Server thread/INFO]: flux666 issued server command: /unban player
+[18:43:24] [Server thread/INFO]: §6Le joueur§c §4§l[§cFONDATEUR§4§l] §4flux666§r §6a débanni§c Player.
+[18:43:30] [User Authenticator #14/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:43:31] [Server thread/INFO]: Player[/127.0.0.1:61851] logged in with entity id 968 at ([world]442.38748194240605, 4.9375, 10.175056147847231)
+[18:44:07] [Server thread/INFO]: flux666 issued server command: /tempban
+[18:44:59] [Server thread/INFO]: flux666 issued server command: /tempban Player 0d tu et con
+[18:44:59] [Server thread/INFO]: Player lost connection: §cYou have been temporarily banned for now:
+§rtu et con
+[18:45:00] [Server thread/INFO]: Player left the game
+[18:45:00] [Server thread/INFO]: §6Player §c§4§l[§cFONDATEUR§4§l] §4flux666§r§6 temporarily banned §cPlayer§6 for §cnow§6: §ctu et con§6.
+[18:45:00] [Server thread/WARN]: handleDisconnection() called twice
+[18:45:11] [User Authenticator #15/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:45:11] [Server thread/INFO]: Player[/127.0.0.1:61883] logged in with entity id 973 at ([world]442.38748194240605, 4.9375, 10.175056147847231)
+[18:45:20] [Server thread/INFO]: flux666 lost connection: Disconnected
+[18:45:20] [Server thread/INFO]: flux666 left the game
+[18:46:36] [Server thread/WARN]: Player moved too quickly! 16.92795223882831,0.0,34.01946252115008
+[18:46:41] [Server thread/WARN]: Player moved too quickly! -7.524540857524812,0.41999998688697815,11.531299513066585
+[18:47:36] [User Authenticator #16/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[18:47:36] [Server thread/INFO]: flux666[/127.0.0.1:61942] logged in with entity id 1031 at ([world]427.9165979826184, 4.0, 16.62041367779441)
+[18:48:01] [Server thread/INFO]: flux666 lost connection: Timed out
+[18:48:01] [Server thread/INFO]: flux666 left the game
+[18:48:01] [Server thread/WARN]: handleDisconnection() called twice
+[18:48:16] [User Authenticator #17/INFO]: UUID of player flux666 is 2050a37d-a387-3edc-bb3a-5d8b1bf468ae
+[18:48:16] [Server thread/INFO]: flux666[/127.0.0.1:61946] logged in with entity id 1046 at ([world]427.9165979826184, 4.0, 16.62041367779441)
+[18:48:30] [Server thread/INFO]: flux666 issued server command: /tpall
+[18:48:34] [Server thread/WARN]: flux666 moved too quickly! 7.808856421693463,1.0,6.202033604654936
+[18:48:46] [Server thread/INFO]: flux666 issued server command: /tempban
+[18:49:07] [Server thread/INFO]: flux666 issued server command: /tempban Player 0d 2s tu et moche
+[18:49:07] [Server thread/INFO]: Player lost connection: §cYou have been temporarily banned for 1 seconde:
+§rtu et moche
+[18:49:07] [Server thread/INFO]: Player left the game
+[18:49:07] [Server thread/INFO]: §6Player §c§4§l[§cFONDATEUR§4§l] §4flux666§r§6 temporarily banned §cPlayer§6 for §c1 seconde§6: §ctu et moche§6.
+[18:49:07] [Server thread/WARN]: handleDisconnection() called twice
+[18:49:17] [User Authenticator #18/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:49:17] [Server thread/INFO]: Player[/127.0.0.1:61956] logged in with entity id 1067 at ([world]427.5, 4.0, 16.5)
+[18:49:35] [Server thread/INFO]: flux666 issued server command: /tempban Player 0d 30s tu et moche
+[18:49:35] [Server thread/INFO]: Player lost connection: §cYou have been temporarily banned for 29 secondes:
+§rtu et moche
+[18:49:35] [Server thread/INFO]: Player left the game
+[18:49:35] [Server thread/INFO]: §6Player §c§4§l[§cFONDATEUR§4§l] §4flux666§r§6 temporarily banned §cPlayer§6 for §c29 secondes§6: §ctu et moche§6.
+[18:49:35] [Server thread/WARN]: handleDisconnection() called twice
+[18:49:42] [User Authenticator #19/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:49:43] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4e9a7b26[id=a01e3843-e521-3998-958a-f459800e4d11,name=Player,properties={},legacy=false] (/127.0.0.1:61962): You are banned from this server!
+Reason: tu et moche
+Your ban will be removed on 2018-06-23 at 18:50:05 CEST
+[18:49:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@4e9a7b26[id=a01e3843-e521-3998-958a-f459800e4d11,name=Player,properties={},legacy=false] (/127.0.0.1:61962) lost connection: You are banned from this server!
+Reason: tu et moche
+Your ban will be removed on 2018-06-23 at 18:50:05 CEST
+[18:49:54] [User Authenticator #20/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:49:54] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4bb3eff[id=a01e3843-e521-3998-958a-f459800e4d11,name=Player,properties={},legacy=false] (/127.0.0.1:61968): You are banned from this server!
+Reason: tu et moche
+Your ban will be removed on 2018-06-23 at 18:50:05 CEST
+[18:49:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@4bb3eff[id=a01e3843-e521-3998-958a-f459800e4d11,name=Player,properties={},legacy=false] (/127.0.0.1:61968) lost connection: You are banned from this server!
+Reason: tu et moche
+Your ban will be removed on 2018-06-23 at 18:50:05 CEST
+[18:49:59] [User Authenticator #21/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:49:59] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@60ac7b17[id=a01e3843-e521-3998-958a-f459800e4d11,name=Player,properties={},legacy=false] (/127.0.0.1:61978): You are banned from this server!
+Reason: tu et moche
+Your ban will be removed on 2018-06-23 at 18:50:05 CEST
+[18:49:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@60ac7b17[id=a01e3843-e521-3998-958a-f459800e4d11,name=Player,properties={},legacy=false] (/127.0.0.1:61978) lost connection: You are banned from this server!
+Reason: tu et moche
+Your ban will be removed on 2018-06-23 at 18:50:05 CEST
+[18:50:21] [User Authenticator #22/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
+[18:50:22] [Server thread/INFO]: Player[/127.0.0.1:61987] logged in with entity id 1075 at ([world]427.5, 4.0, 16.5)
+[18:51:20] [Server thread/INFO]: flux666 lost connection: Disconnected
+[18:51:20] [Server thread/INFO]: flux666 left the game
+[18:51:54] [Server thread/INFO]: Player lost connection: Disconnected
+[18:51:54] [Server thread/INFO]: Player left the game
+[21:38:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@4142447e[id=<null>,name=Player,properties={},legacy=false] (/127.0.0.1:62331) lost connection: Disconnected
+[21:39:24] [User Authenticator #23/INFO]: UUID of player Player is a01e3843-e521-3998-958a-f459800e4d11
